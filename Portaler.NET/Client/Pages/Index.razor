@@ -10,7 +10,7 @@
 @inject IJSRuntime _jsRuntime;
 @inject HttpClient _http;
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Portaler.NET</PageTitle>
 <div class="sidenav">
     <div class="area" >
         <BlazoredTypeahead SearchMethod="SearchZones" @bind-Value="_selectedZoneFrom" Debounce="1">
@@ -45,9 +45,6 @@
         </div>
         
         <button onclick="@AddConnection">Add</button>
-
-        <textarea rows="1" @bind="@_ticketString"></textarea>
-        <button onclick="@CheckAuthTicket">Auth</button>
     </div>
 </div>
 
