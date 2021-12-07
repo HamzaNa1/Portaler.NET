@@ -1,0 +1,7689 @@
+﻿[
+  {
+    "id": 1,
+    "albionId": "4300",
+    "name": "Arthur's Rest",
+    "tier": "I",
+    "color": "city",
+    "type": "PLAYERCITY_BLACK_NOFURNITURE",
+    "isDeep": false
+  },
+  {
+    "id": 2,
+    "albionId": "2009",
+    "name": "Astolat",
+    "tier": "VI",
+    "color": "red",
+    "type": "OPENPVP_RED",
+    "isDeep": false
+  },
+  {
+    "id": 3,
+    "albionId": "4358",
+    "name": "Avalanche Incline",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 4,
+    "albionId": "4314",
+    "name": "Avalanche Ravine",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 5,
+    "albionId": "3316",
+    "name": "Battlebrae Flatland",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 6,
+    "albionId": "3348",
+    "name": "Battlebrae Grassland",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 7,
+    "albionId": "3313",
+    "name": "Battlebrae Lake",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 8,
+    "albionId": "3349",
+    "name": "Battlebrae Meadow",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 9,
+    "albionId": "3317",
+    "name": "Battlebrae Peaks",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 10,
+    "albionId": "3312",
+    "name": "Battlebrae Plain",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 11,
+    "albionId": "PSG-0051---3",
+    "name": "Bedrock Passage",
+    "tier": "VI",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 830,
+    "albionId": "PSG-0051#3",
+    "name": "Bedrock Passage",
+    "tier": "VI",
+    "color": "black",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 12,
+    "albionId": "3249",
+    "name": "Bellever Tor",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 13,
+    "albionId": "1207",
+    "name": "Birchcopse",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 14,
+    "albionId": "3201",
+    "name": "Birken Fell",
+    "tier": "VI",
+    "color": "red",
+    "type": "OPENPVP_RED",
+    "isDeep": false
+  },
+  {
+    "id": 15,
+    "albionId": "0356",
+    "name": "Black Monastery",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 16,
+    "albionId": "3207",
+    "name": "Blackthorn Quarry",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 17,
+    "albionId": "2333",
+    "name": "Bleachskull Desert",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 18,
+    "albionId": "2314",
+    "name": "Bleachskull Steppe",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 19,
+    "albionId": "0212",
+    "name": "Bonepool Marsh",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 20,
+    "albionId": "3208",
+    "name": "Bowscale Fell",
+    "tier": "VI",
+    "color": "red",
+    "type": "OPENPVP_RED",
+    "isDeep": false
+  },
+  {
+    "id": 21,
+    "albionId": "3331",
+    "name": "Braemore Lowland",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 22,
+    "albionId": "3309",
+    "name": "Braemore Upland",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 23,
+    "albionId": "1305",
+    "name": "Brambleshore Hinterlands",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 24,
+    "albionId": "3209",
+    "name": "Brent Knoll",
+    "tier": "III",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 25,
+    "albionId": "2000",
+    "name": "Bridgewatch",
+    "tier": "I",
+    "color": "city",
+    "type": "PLAYERCITY_SAFEAREA_01",
+    "isDeep": false
+  },
+  {
+    "id": 26,
+    "albionId": "4202",
+    "name": "Bryn Gorge",
+    "tier": "III",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 27,
+    "albionId": "3003",
+    "name": "Caerleon",
+    "tier": "VII",
+    "color": "city",
+    "type": "PLAYERCITY_BLACK_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 28,
+    "albionId": "4213",
+    "name": "Cairn Camain",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 29,
+    "albionId": "4209",
+    "name": "Cairn Darg",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 30,
+    "albionId": "4214",
+    "name": "Cairn Fidair",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 31,
+    "albionId": "4212",
+    "name": "Cairn Glascore",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 32,
+    "albionId": "4205",
+    "name": "Cairn Gorm",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 33,
+    "albionId": "0005",
+    "name": "Camlann",
+    "tier": "VII",
+    "color": "red",
+    "type": "OPENPVP_RED",
+    "isDeep": false
+  },
+  {
+    "id": 34,
+    "albionId": "TNL-045",
+    "name": "Cases-Ugumlos",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 35,
+    "albionId": "TNL-325",
+    "name": "Casitos-Alieam",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 36,
+    "albionId": "TNL-255",
+    "name": "Casitos-Atinaum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 37,
+    "albionId": "TNL-227",
+    "name": "Casitos-Avaelum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 38,
+    "albionId": "TNL-089",
+    "name": "Casos-Aiagsum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 39,
+    "albionId": "TNL-071",
+    "name": "Casos-Aximam",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 40,
+    "albionId": "TNL-065",
+    "name": "Casos-Ayosrom",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 41,
+    "albionId": "TNL-018",
+    "name": "Casos-Uruxtum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 42,
+    "albionId": "TNL-219",
+    "name": "Cebitos-Aeaylum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 43,
+    "albionId": "TNL-039",
+    "name": "Cebos-Avemlum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 44,
+    "albionId": "1246",
+    "name": "Cedarcopse",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 45,
+    "albionId": "TNL-007",
+    "name": "Ceres-Iooinum",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 46,
+    "albionId": "TNL-238",
+    "name": "Ceritos-Avulsum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 47,
+    "albionId": "TNL-019",
+    "name": "Ceros-Aeaylum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 48,
+    "albionId": "TNL-242",
+    "name": "Cetitos-Aiayrom",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 49,
+    "albionId": "TNL-226",
+    "name": "Cetitos-Avixnum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 50,
+    "albionId": "TNL-271",
+    "name": "Cetitos-Aximam",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 51,
+    "albionId": "TNL-008",
+    "name": "Cetos-Obaelos",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 52,
+    "albionId": "0202",
+    "name": "Chillhag",
+    "tier": "III",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 53,
+    "albionId": "TNL-245",
+    "name": "Cieites-Ugumlos",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 54,
+    "albionId": "TNL-284",
+    "name": "Cieitos-Avioaum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 55,
+    "albionId": "TNL-265",
+    "name": "Cieitos-Ayosrom",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 56,
+    "albionId": "TNL-208",
+    "name": "Cieitos-Obaelos",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 57,
+    "albionId": "TNL-350",
+    "name": "Cieitos-Otatrom",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 58,
+    "albionId": "TNL-145",
+    "name": "Cieos-Atatlum",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 59,
+    "albionId": "TNL-326",
+    "name": "Cilitos-Opodam",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 60,
+    "albionId": "TNL-084",
+    "name": "Cilos-Avioaum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 61,
+    "albionId": "TNL-093",
+    "name": "Cilos-Ofailos",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 62,
+    "albionId": "TNL-150",
+    "name": "Cilos-Otatrom",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 63,
+    "albionId": "2355",
+    "name": "Citadel of Ash",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 64,
+    "albionId": "TNL-293",
+    "name": "Conitos-Ofailos",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 65,
+    "albionId": "TNL-258",
+    "name": "Conitos-Oxaeaum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 66,
+    "albionId": "TNL-218",
+    "name": "Conitos-Uruxtum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 67,
+    "albionId": "TNL-027",
+    "name": "Conos-Avaelum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 68,
+    "albionId": "TNL-239",
+    "name": "Coritos-Avemlum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 69,
+    "albionId": "TNL-042",
+    "name": "Coros-Aiayrom",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 70,
+    "albionId": "TNL-125",
+    "name": "Coros-Alieam",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 71,
+    "albionId": "TNL-055",
+    "name": "Coros-Atinaum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 72,
+    "albionId": "TNL-002",
+    "name": "Coues-Exakrom",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 73,
+    "albionId": "PSG-0002",
+    "name": "Cougar Den",
+    "tier": "V",
+    "color": "red",
+    "type": "PASSAGE_RED",
+    "isDeep": false
+  },
+  {
+    "id": 74,
+    "albionId": "TNL-081",
+    "name": "Couos-Ayayaum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 75,
+    "albionId": "TNL-126",
+    "name": "Couos-Opodam",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 76,
+    "albionId": "2202",
+    "name": "Cracked Earth",
+    "tier": "III",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 77,
+    "albionId": "PSG-0048---1",
+    "name": "Craglight Cavern",
+    "tier": "VI",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 829,
+    "albionId": "PSG-0048#1",
+    "name": "Craglight Cavern",
+    "tier": "VI",
+    "color": "black",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 78,
+    "albionId": "4211",
+    "name": "Creag Garr",
+    "tier": "VI",
+    "color": "red",
+    "type": "OPENPVP_RED",
+    "isDeep": false
+  },
+  {
+    "id": 79,
+    "albionId": "4216",
+    "name": "Creag Morr",
+    "tier": "VI",
+    "color": "red",
+    "type": "OPENPVP_RED",
+    "isDeep": false
+  },
+  {
+    "id": 80,
+    "albionId": "3212",
+    "name": "Croker Hill",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 81,
+    "albionId": "4203",
+    "name": "Crose Gorge",
+    "tier": "III",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 82,
+    "albionId": "PSG-0038---2",
+    "name": "Crosscut Skip",
+    "tier": "V",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 824,
+    "albionId": "PSG-0038#2",
+    "name": "Crosscut Skip",
+    "tier": "V",
+    "color": "black",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 83,
+    "albionId": "TNL-202",
+    "name": "Curites-Exakrom",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 84,
+    "albionId": "TNL-281",
+    "name": "Curitos-Ayayaum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 85,
+    "albionId": "0213",
+    "name": "Curlew Fen",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 86,
+    "albionId": "TNL-038",
+    "name": "Curos-Avulsum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 87,
+    "albionId": "TNL-207",
+    "name": "Cuyites-Iooinum",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 88,
+    "albionId": "TNL-289",
+    "name": "Cynitos-Aiagsum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 89,
+    "albionId": "TNL-345",
+    "name": "Cynitos-Atatlum",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 90,
+    "albionId": "TNL-026",
+    "name": "Cynos-Avixnum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 91,
+    "albionId": "TNL-058",
+    "name": "Cynos-Oxaeaum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 92,
+    "albionId": "2360",
+    "name": "Daemonium Keep",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 93,
+    "albionId": "1358",
+    "name": "Darkbough Snag",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 817,
+    "albionId": "PSG-0039#2",
+    "name": "Darkseep Core",
+    "tier": "V",
+    "color": "black",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 94,
+    "albionId": "PSG-0039---2",
+    "name": "Darkseep Core",
+    "tier": "V",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 95,
+    "albionId": "PSG-0042---2",
+    "name": "Darkstone Drift",
+    "tier": "VI",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 96,
+    "albionId": "1312",
+    "name": "Deadpine Forest",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 97,
+    "albionId": "2204",
+    "name": "Deadvein Gully",
+    "tier": "VI",
+    "color": "red",
+    "type": "OPENPVP_RED",
+    "isDeep": false
+  },
+  {
+    "id": 825,
+    "albionId": "PSG-0052#2",
+    "name": "Deathcap Channel",
+    "tier": "VI",
+    "color": "black",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 98,
+    "albionId": "PSG-0052---2",
+    "name": "Deathcap Channel",
+    "tier": "VI",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 834,
+    "albionId": "PSG-0053#2",
+    "name": "Deathcreep Adit",
+    "tier": "VI",
+    "color": "black",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 99,
+    "albionId": "PSG-0053---2",
+    "name": "Deathcreep Adit",
+    "tier": "VI",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 100,
+    "albionId": "0359",
+    "name": "Deathreach Priory",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 101,
+    "albionId": "0347",
+    "name": "Deathwisp Bog",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 102,
+    "albionId": "0346",
+    "name": "Deathwisp Sink",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 103,
+    "albionId": "1343",
+    "name": "Deepwood Copse",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 104,
+    "albionId": "1306",
+    "name": "Deepwood Dell",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 105,
+    "albionId": "1327",
+    "name": "Deepwood Gorge",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 106,
+    "albionId": "1340",
+    "name": "Deepwood Pines",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 107,
+    "albionId": "0209",
+    "name": "Dewleaf Fen",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 108,
+    "albionId": "1334",
+    "name": "Driftwood Glen",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 109,
+    "albionId": "1348",
+    "name": "Driftwood Hollow",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 110,
+    "albionId": "1321",
+    "name": "Driftwood Vale",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 821,
+    "albionId": "PSG-0053#1",
+    "name": "Driprock Tunnel",
+    "tier": "VI",
+    "color": "black",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 111,
+    "albionId": "PSG-0053---1",
+    "name": "Driprock Tunnel",
+    "tier": "VI",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 112,
+    "albionId": "0308",
+    "name": "Drownfield Course",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 113,
+    "albionId": "0313",
+    "name": "Drownfield Fen",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 114,
+    "albionId": "0310",
+    "name": "Drownfield Mire",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 115,
+    "albionId": "0340",
+    "name": "Drownfield Quag",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 116,
+    "albionId": "0332",
+    "name": "Drownfield Rut",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 117,
+    "albionId": "0355",
+    "name": "Drownfield Sink",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 118,
+    "albionId": "0329",
+    "name": "Drownfield Slough",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 119,
+    "albionId": "0328",
+    "name": "Drownfield Wetland",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 120,
+    "albionId": "2341",
+    "name": "Drybasin Oasis",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 121,
+    "albionId": "2308",
+    "name": "Drybasin Riverbed",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 122,
+    "albionId": "2328",
+    "name": "Drytop Pillars",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 123,
+    "albionId": "2327",
+    "name": "Drytop Riverbed",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 124,
+    "albionId": "2347",
+    "name": "Dryvein Confluence",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 125,
+    "albionId": "2315",
+    "name": "Dryvein Cross",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 126,
+    "albionId": "2345",
+    "name": "Dryvein End",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 127,
+    "albionId": "2334",
+    "name": "Dryvein Oasis",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 128,
+    "albionId": "2319",
+    "name": "Dryvein Plain",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 129,
+    "albionId": "2313",
+    "name": "Dryvein Riverbed",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 130,
+    "albionId": "2332",
+    "name": "Dryvein Steppe",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 131,
+    "albionId": "2207",
+    "name": "Drywater Meadow",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 132,
+    "albionId": "0206",
+    "name": "Dusklight Fen",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 133,
+    "albionId": "1357",
+    "name": "Eldersleep",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 134,
+    "albionId": "3204",
+    "name": "Eldon Hill",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 135,
+    "albionId": "PSG-0051---4",
+    "name": "Everglow Deep",
+    "tier": "VI",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 831,
+    "albionId": "PSG-0051#4",
+    "name": "Everglow Deep",
+    "tier": "VI",
+    "color": "black",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 136,
+    "albionId": "4307",
+    "name": "Everwinter Crossing",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 137,
+    "albionId": "4340",
+    "name": "Everwinter Expanse",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false,
+    "info": {
+      "markers": [],
+      "resources": [],
+      "mobs": [
+        {
+          "name": "UNDEAD ARCHER",
+          "tier": "VII",
+          "count": 31
+        },
+        {
+          "name": "UNDEAD ARCHER MINIBOSS",
+          "tier": "VII",
+          "count": 1
+        },
+        {
+          "name": "UNDEAD CHEST",
+          "tier": "VII",
+          "count": 12
+        },
+        {
+          "name": "UNDEAD GHOUL",
+          "tier": "VII",
+          "count": 36
+        },
+        {
+          "name": "UNDEAD MAGE",
+          "tier": "VII",
+          "count": 23
+        },
+        {
+          "name": "UNDEAD SHADE",
+          "tier": "VII",
+          "count": 11
+        },
+        {
+          "name": "UNDEAD SOLDIER",
+          "tier": "VII",
+          "count": 32
+        },
+        {
+          "name": "UNDEAD SOLDIER MINIBOSS",
+          "tier": "VII",
+          "count": 1
+        },
+        {
+          "name": "UNDEAD TRASH SKELETON",
+          "tier": "VII",
+          "count": 47
+        }
+      ],
+      "royalConnections": [
+        {
+          "id": 140,
+          "name": "Everwinter Incline",
+          "tier": "VIII",
+          "type": "OPENPVP_BLACK_4",
+          "color": "black"
+        },
+        {
+          "id": 145,
+          "name": "Everwinter Shores",
+          "tier": "V",
+          "type": "OPENPVP_BLACK_2",
+          "color": "black"
+        },
+        {
+          "id": 594,
+          "name": "Shaleheath Steep",
+          "tier": "VII",
+          "type": "OPENPVP_BLACK_3",
+          "color": "black"
+        }
+      ]
+    }
+  },
+  {
+    "id": 138,
+    "albionId": "4341",
+    "name": "Everwinter Gap",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 139,
+    "albionId": "4325",
+    "name": "Everwinter Gorge",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 140,
+    "albionId": "4353",
+    "name": "Everwinter Incline",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false,
+    "info": {
+      "markers": [
+        {
+          "name": "Castle Outpost",
+          "pos": [
+            -226,
+            -82
+          ]
+        }
+      ],
+      "resources": [],
+      "mobs": [],
+      "royalConnections": [
+        {
+          "id": 137,
+          "name": "Everwinter Expanse",
+          "tier": "VII",
+          "type": "OPENPVP_BLACK_3",
+          "color": "black"
+        },
+        {
+          "id": 142,
+          "name": "Everwinter Peak",
+          "tier": "VI",
+          "type": "OPENPVP_BLACK_3",
+          "color": "black"
+        },
+        {
+          "id": 608,
+          "name": "Skysand Plateau",
+          "tier": "V",
+          "type": "OPENPVP_BLACK_3",
+          "color": "black"
+        },
+        {
+          "id": 63,
+          "name": "Citadel of Ash",
+          "tier": "VIII",
+          "type": "OPENPVP_BLACK_3",
+          "color": "black"
+        }
+      ]
+    }
+  },
+  {
+    "id": 141,
+    "albionId": "4337",
+    "name": "Everwinter Passage",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 142,
+    "albionId": "4322",
+    "name": "Everwinter Peak",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 143,
+    "albionId": "4323",
+    "name": "Everwinter Plain",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 144,
+    "albionId": "4321",
+    "name": "Everwinter Reach",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 145,
+    "albionId": "4310",
+    "name": "Everwinter Shores",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 146,
+    "albionId": "1356",
+    "name": "Eye of the Forest",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 147,
+    "albionId": "2325",
+    "name": "Farshore Bay",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 148,
+    "albionId": "2353",
+    "name": "Farshore Cape",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 149,
+    "albionId": "2351",
+    "name": "Farshore Drylands",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 150,
+    "albionId": "2320",
+    "name": "Farshore Esker",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 151,
+    "albionId": "2336",
+    "name": "Farshore Heath",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 152,
+    "albionId": "2338",
+    "name": "Farshore Lagoon",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 153,
+    "albionId": "TNL-328",
+    "name": "Fasites-Azazsum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 154,
+    "albionId": "TNL-323",
+    "name": "Fasitos-Atezsum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 155,
+    "albionId": "TNL-336",
+    "name": "Fasitos-Oleraum",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 156,
+    "albionId": "TNL-342",
+    "name": "Fasitos-Oyuctum",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 157,
+    "albionId": "TNL-073",
+    "name": "Fasos-Ayiotum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 158,
+    "albionId": "TNL-330",
+    "name": "Febites-Opavun",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 159,
+    "albionId": "TNL-140",
+    "name": "Febos-Acalun",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 160,
+    "albionId": "TNL-331",
+    "name": "Ferites-Ohohtum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 161,
+    "albionId": "TNL-260",
+    "name": "Feritos-Enomaum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 162,
+    "albionId": "TNL-297",
+    "name": "Feritos-Osinsum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 163,
+    "albionId": "1215",
+    "name": "Ferndell",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 164,
+    "albionId": "TNL-142",
+    "name": "Feros-Oyuctum",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 165,
+    "albionId": "TNL-047",
+    "name": "Fetos-Aiaylos",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 166,
+    "albionId": "TNL-131",
+    "name": "Fiees-Ohohtum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 167,
+    "albionId": "TNL-246",
+    "name": "Fieites-Unavtum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 168,
+    "albionId": "TNL-137",
+    "name": "Fieos-Aiuttum",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 169,
+    "albionId": "TNL-123",
+    "name": "Fieos-Atezsum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 170,
+    "albionId": "TNL-128",
+    "name": "Files-Azazsum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 171,
+    "albionId": "TNL-301",
+    "name": "Filites-Izohun",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 172,
+    "albionId": "TNL-344",
+    "name": "Filitos-Uzazlum",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 173,
+    "albionId": "TNL-138",
+    "name": "Filos-Abalam",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 174,
+    "albionId": "4333",
+    "name": "Firesink Caldera",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 175,
+    "albionId": "4349",
+    "name": "Firesink Trench",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 176,
+    "albionId": "TNL-295",
+    "name": "Firitos-Alodrom",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 177,
+    "albionId": "TNL-117",
+    "name": "Firos-Aiavam",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 178,
+    "albionId": "TNL-060",
+    "name": "Firos-Enomaum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 179,
+    "albionId": "TNL-096",
+    "name": "Firos-Ezatam",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 180,
+    "albionId": "TNL-097",
+    "name": "Firos-Osinsum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 181,
+    "albionId": "4354",
+    "name": "Flammog Desolation",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 182,
+    "albionId": "4319",
+    "name": "Flammog Fork",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 183,
+    "albionId": "4330",
+    "name": "Flammog Valley",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 184,
+    "albionId": "3305",
+    "name": "Flatrock Cliffs",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 185,
+    "albionId": "3328",
+    "name": "Flatrock Plateau",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 186,
+    "albionId": "4339",
+    "name": "Floatshoal Bight",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 187,
+    "albionId": "4327",
+    "name": "Floatshoal Fissure",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 188,
+    "albionId": "4313",
+    "name": "Floatshoal Floe",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 189,
+    "albionId": "TNL-130",
+    "name": "Fones-Opavun",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 190,
+    "albionId": "TNL-251",
+    "name": "Fonitos-Amaurom",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 191,
+    "albionId": "TNL-085",
+    "name": "Fonos-Aiugsum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 192,
+    "albionId": "TNL-136",
+    "name": "Fonos-Oleraum",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 193,
+    "albionId": "PSG-0007",
+    "name": "Forest Burrow",
+    "tier": "VII",
+    "color": "red",
+    "type": "PASSAGE_RED",
+    "isDeep": false
+  },
+  {
+    "id": 194,
+    "albionId": "1006",
+    "name": "Forest Cross",
+    "tier": "II",
+    "color": "city",
+    "type": "STARTINGCITY",
+    "isDeep": false
+  },
+  {
+    "id": 195,
+    "albionId": "TNL-247",
+    "name": "Foritos-Aiaylos",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 196,
+    "albionId": "TNL-032",
+    "name": "Foros-Egoisum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 197,
+    "albionId": "TNL-144",
+    "name": "Foros-Uzazlum",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 198,
+    "albionId": "4000",
+    "name": "Fort Sterling",
+    "tier": "I",
+    "color": "city",
+    "type": "PLAYERCITY_SAFEAREA_02",
+    "isDeep": false
+  },
+  {
+    "id": 199,
+    "albionId": "TNL-063",
+    "name": "Foues-Aeaosum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 200,
+    "albionId": "TNL-337",
+    "name": "Fouitos-Aiuttum",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 201,
+    "albionId": "TNL-048",
+    "name": "Fouos-Agosaum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 202,
+    "albionId": "TNL-051",
+    "name": "Fouos-Amaurom",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 203,
+    "albionId": "2214",
+    "name": "Fractured Ground",
+    "tier": "III",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 204,
+    "albionId": "4316",
+    "name": "Frostbite Chasm",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 205,
+    "albionId": "4335",
+    "name": "Frostbite Mountain",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 206,
+    "albionId": "4324",
+    "name": "Frostpeak Ascent",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 207,
+    "albionId": "4306",
+    "name": "Frostpeak Vista",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 208,
+    "albionId": "4347",
+    "name": "Frostseep Crevasse",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 209,
+    "albionId": "4320",
+    "name": "Frostseep Ravine",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 210,
+    "albionId": "4336",
+    "name": "Frostspring Passage",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 211,
+    "albionId": "4351",
+    "name": "Frostspring Vulcano",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 212,
+    "albionId": "TNL-317",
+    "name": "Furitos-Aiavam",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 213,
+    "albionId": "TNL-101",
+    "name": "Fuyes-Izohun",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 214,
+    "albionId": "TNL-340",
+    "name": "Fuyitos-Acalun",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 215,
+    "albionId": "TNL-273",
+    "name": "Fuyitos-Ayiotum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 216,
+    "albionId": "TNL-046",
+    "name": "Fynes-Unavtum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 217,
+    "albionId": "TNL-263",
+    "name": "Fynites-Aeaosum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 218,
+    "albionId": "TNL-338",
+    "name": "Fynitos-Abalam",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 219,
+    "albionId": "TNL-248",
+    "name": "Fynitos-Agosaum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 220,
+    "albionId": "TNL-285",
+    "name": "Fynitos-Aiugsum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 221,
+    "albionId": "TNL-232",
+    "name": "Fynitos-Egoisum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 222,
+    "albionId": "TNL-296",
+    "name": "Fynitos-Ezatam",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 223,
+    "albionId": "TNL-095",
+    "name": "Fynos-Alodrom",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 224,
+    "albionId": "1310",
+    "name": "Giantweald Copse",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 225,
+    "albionId": "1308",
+    "name": "Giantweald Dale",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 226,
+    "albionId": "1341",
+    "name": "Giantweald Edge",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 227,
+    "albionId": "1344",
+    "name": "Giantweald Glade",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 228,
+    "albionId": "1331",
+    "name": "Giantweald Roots",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 229,
+    "albionId": "1328",
+    "name": "Giantweald Woods",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 230,
+    "albionId": "4332",
+    "name": "Glacierbreak Summit",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 231,
+    "albionId": "4329",
+    "name": "Glacierfall Canyon",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 232,
+    "albionId": "4343",
+    "name": "Glacierfall Cross",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 233,
+    "albionId": "4356",
+    "name": "Glacierfall Fissure",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 234,
+    "albionId": "4355",
+    "name": "Glacierfall Pass",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 235,
+    "albionId": "4312",
+    "name": "Glacierfall Passage",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 236,
+    "albionId": "4344",
+    "name": "Glacierfall Valley",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 237,
+    "albionId": "PSG-0054---2",
+    "name": "Gleamstone Deep",
+    "tier": "VI",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 826,
+    "albionId": "PSG-0052#3",
+    "name": "Glowmire Grotto",
+    "tier": "VI",
+    "color": "black",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 238,
+    "albionId": "PSG-0052---3",
+    "name": "Glowmire Grotto",
+    "tier": "VI",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 239,
+    "albionId": "3215",
+    "name": "Goffers Knoll",
+    "tier": "III",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 240,
+    "albionId": "3323",
+    "name": "Gravemound Brim",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 241,
+    "albionId": "3352",
+    "name": "Gravemound Cliffs",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 242,
+    "albionId": "3324",
+    "name": "Gravemound Hills",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 243,
+    "albionId": "3351",
+    "name": "Gravemound Knoll",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 244,
+    "albionId": "3337",
+    "name": "Gravemound Slope",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 245,
+    "albionId": "1352",
+    "name": "Greenhollow Copse",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 246,
+    "albionId": "1324",
+    "name": "Greenhollow Vale",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 247,
+    "albionId": "1355",
+    "name": "Greenshore Bay",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 248,
+    "albionId": "1307",
+    "name": "Greenshore Peninsula",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 249,
+    "albionId": "3205",
+    "name": "Gutras Hill",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 250,
+    "albionId": "4210",
+    "name": "Gwan Gorge",
+    "tier": "III",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 251,
+    "albionId": "3214",
+    "name": "Haldon Tor",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 252,
+    "albionId": "TNL-277",
+    "name": "Hasitos-Avaolum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 253,
+    "albionId": "TNL-236",
+    "name": "Hasitos-Umayaum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 254,
+    "albionId": "TNL-033",
+    "name": "Hasos-Agoitum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 255,
+    "albionId": "TNL-072",
+    "name": "Hasos-Ayousum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 256,
+    "albionId": "TNL-040",
+    "name": "Hasos-Inayaum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 257,
+    "albionId": "TNL-031",
+    "name": "Hasos-Iuimaum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 258,
+    "albionId": "TNL-079",
+    "name": "Hasos-Osuorom",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 259,
+    "albionId": "3206",
+    "name": "Haytor",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 260,
+    "albionId": "TNL-062",
+    "name": "Hebes-Ouaylos",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 261,
+    "albionId": "TNL-261",
+    "name": "Hebites-Exemrom",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 262,
+    "albionId": "TNL-346",
+    "name": "Hebitos-Atontum",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 263,
+    "albionId": "TNL-024",
+    "name": "Hebos-Ulamsum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 264,
+    "albionId": "TNL-243",
+    "name": "Heritos-Exozlos",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 265,
+    "albionId": "TNL-249",
+    "name": "Heritos-Eyoztum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 266,
+    "albionId": "TNL-240",
+    "name": "Heritos-Inayaum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 267,
+    "albionId": "TNL-118",
+    "name": "Heros-Atoyam",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 268,
+    "albionId": "TNL-225",
+    "name": "Hetitos-Iuaerom",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 269,
+    "albionId": "TNL-091",
+    "name": "Hieos-Aiigaum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 270,
+    "albionId": "TNL-077",
+    "name": "Hieos-Avaolum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 271,
+    "albionId": "1205",
+    "name": "Highbole Glen",
+    "tier": "VI",
+    "color": "red",
+    "type": "OPENPVP_RED",
+    "isDeep": false
+  },
+  {
+    "id": 272,
+    "albionId": "3002",
+    "name": "Highland Cross",
+    "tier": "II",
+    "color": "city",
+    "type": "STARTINGCITY",
+    "isDeep": false
+  },
+  {
+    "id": 273,
+    "albionId": "3319",
+    "name": "Highstone Grassland",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 274,
+    "albionId": "3357",
+    "name": "Highstone Loch",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 275,
+    "albionId": "3311",
+    "name": "Highstone Meadow",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 276,
+    "albionId": "3346",
+    "name": "Highstone Mound",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 277,
+    "albionId": "3315",
+    "name": "Highstone Plains",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 278,
+    "albionId": "3347",
+    "name": "Highstone Plateau",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 279,
+    "albionId": "1333",
+    "name": "Hightree Borderlands",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 280,
+    "albionId": "1336",
+    "name": "Hightree Cliffs",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 281,
+    "albionId": "1317",
+    "name": "Hightree Dale",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 282,
+    "albionId": "1322",
+    "name": "Hightree Enclave",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 283,
+    "albionId": "1320",
+    "name": "Hightree Glade",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 284,
+    "albionId": "1347",
+    "name": "Hightree Hillock",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 285,
+    "albionId": "1345",
+    "name": "Hightree Isle",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 286,
+    "albionId": "1316",
+    "name": "Hightree Lake",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 287,
+    "albionId": "1335",
+    "name": "Hightree Levee",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 288,
+    "albionId": "1332",
+    "name": "Hightree Pass",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 289,
+    "albionId": "1302",
+    "name": "Hightree Portal East",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 290,
+    "albionId": "1303",
+    "name": "Hightree Portal North",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 291,
+    "albionId": "1304",
+    "name": "Hightree Portal West",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 292,
+    "albionId": "1313",
+    "name": "Hightree Steep",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 293,
+    "albionId": "1319",
+    "name": "Hightree Strand",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 294,
+    "albionId": "TNL-148",
+    "name": "Hiles-Izizaum",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 295,
+    "albionId": "TNL-230",
+    "name": "Hilites-Ugumtum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 296,
+    "albionId": "TNL-291",
+    "name": "Hilitos-Aiigaum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 297,
+    "albionId": "TNL-279",
+    "name": "Hilitos-Osuorom",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 298,
+    "albionId": "TNL-043",
+    "name": "Hiros-Exozlos",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 299,
+    "albionId": "TNL-025",
+    "name": "Hiros-Iuaerom",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 300,
+    "albionId": "TNL-348",
+    "name": "Honites-Izizaum",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 301,
+    "albionId": "TNL-206",
+    "name": "Honitos-Uxeulum",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 302,
+    "albionId": "TNL-122",
+    "name": "Honos-Oyezam",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 303,
+    "albionId": "TNL-036",
+    "name": "Honos-Umayaum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 304,
+    "albionId": "1214",
+    "name": "Hornbeam Wood",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 305,
+    "albionId": "TNL-127",
+    "name": "Horos-Ohenlum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 306,
+    "albionId": "TNL-030",
+    "name": "Hures-Ugumtum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 307,
+    "albionId": "TNL-300",
+    "name": "Hurites-Ieatun",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 308,
+    "albionId": "TNL-262",
+    "name": "Hurites-Ouaylos",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 309,
+    "albionId": "TNL-231",
+    "name": "Huritos-Iuimaum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 310,
+    "albionId": "TNL-223",
+    "name": "Huritos-Oiaelos",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 311,
+    "albionId": "TNL-146",
+    "name": "Huros-Atontum",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 312,
+    "albionId": "TNL-037",
+    "name": "Huyes-Ogozlum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 313,
+    "albionId": "TNL-233",
+    "name": "Huyitos-Agoitum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 314,
+    "albionId": "TNL-327",
+    "name": "Huyitos-Ohenlum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 315,
+    "albionId": "TNL-049",
+    "name": "Huyos-Eyoztum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 316,
+    "albionId": "TNL-006",
+    "name": "Huyos-Uxeulum",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 317,
+    "albionId": "TNL-061",
+    "name": "Hynes-Exemrom",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 318,
+    "albionId": "TNL-100",
+    "name": "Hynes-Ieatun",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 319,
+    "albionId": "TNL-237",
+    "name": "Hynites-Ogozlum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 320,
+    "albionId": "TNL-318",
+    "name": "Hynitos-Atoyam",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 321,
+    "albionId": "TNL-272",
+    "name": "Hynitos-Ayousum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 322,
+    "albionId": "TNL-322",
+    "name": "Hynitos-Oyezam",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 323,
+    "albionId": "TNL-224",
+    "name": "Hynitos-Ulamsum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 324,
+    "albionId": "TNL-023",
+    "name": "Hynos-Oiaelos",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 325,
+    "albionId": "4342",
+    "name": "Iceburn Cliffs",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 326,
+    "albionId": "4318",
+    "name": "Iceburn Firth",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 327,
+    "albionId": "4328",
+    "name": "Iceburn Peaks",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 328,
+    "albionId": "4346",
+    "name": "Iceburn Tundra",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 329,
+    "albionId": "1007",
+    "name": "Inis Mon",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 330,
+    "albionId": "2201",
+    "name": "Kindlegrass Steppe",
+    "tier": "VI",
+    "color": "red",
+    "type": "OPENPVP_RED",
+    "isDeep": false
+  },
+  {
+    "id": 331,
+    "albionId": "1201",
+    "name": "Larchroad",
+    "tier": "III",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 332,
+    "albionId": "2209",
+    "name": "Lazygrass Plain",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 333,
+    "albionId": "3203",
+    "name": "Lewsdon Hill",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 334,
+    "albionId": "0336",
+    "name": "Longfen Arms",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 335,
+    "albionId": "0322",
+    "name": "Longfen Marsh",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 336,
+    "albionId": "0352",
+    "name": "Longfen Veins",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 337,
+    "albionId": "2212",
+    "name": "Longmarch Meadow",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 338,
+    "albionId": "1209",
+    "name": "Longtimber Glen",
+    "tier": "VI",
+    "color": "red",
+    "type": "OPENPVP_RED",
+    "isDeep": false
+  },
+  {
+    "id": 339,
+    "albionId": "PSG-0051---2",
+    "name": "Lurkers' Hollow",
+    "tier": "VI",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 827,
+    "albionId": "PSG-0051#2",
+    "name": "Lurkers' Hollow",
+    "tier": "VI",
+    "color": "black",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 340,
+    "albionId": "1000",
+    "name": "Lymhurst",
+    "tier": "I",
+    "color": "city",
+    "type": "PLAYERCITY_SAFEAREA_02",
+    "isDeep": false
+  },
+  {
+    "id": 341,
+    "albionId": "4215",
+    "name": "Malag Crevasse",
+    "tier": "VI",
+    "color": "red",
+    "type": "OPENPVP_RED",
+    "isDeep": false
+  },
+  {
+    "id": 342,
+    "albionId": "3202",
+    "name": "Mardale",
+    "tier": "VI",
+    "color": "red",
+    "type": "OPENPVP_RED",
+    "isDeep": false
+  },
+  {
+    "id": 343,
+    "albionId": "3004",
+    "name": "Martlock",
+    "tier": "I",
+    "color": "city",
+    "type": "PLAYERCITY_SAFEAREA_01",
+    "isDeep": false
+  },
+  {
+    "id": 344,
+    "albionId": "3210",
+    "name": "Mase Knoll",
+    "tier": "III",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 345,
+    "albionId": "4208",
+    "name": "Mawar Gorge",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 346,
+    "albionId": "0307",
+    "name": "Meltwater Bog",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 347,
+    "albionId": "0354",
+    "name": "Meltwater Channel",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 348,
+    "albionId": "0325",
+    "name": "Meltwater Delta",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 349,
+    "albionId": "0338",
+    "name": "Meltwater Sump",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 350,
+    "albionId": "1012",
+    "name": "Merlyn's Rest",
+    "tier": "I",
+    "color": "city",
+    "type": "PLAYERCITY_BLACK_NOFURNITURE",
+    "isDeep": false
+  },
+  {
+    "id": 828,
+    "albionId": "PSG-0050#1",
+    "name": "Middlemurk Path",
+    "tier": "VI",
+    "color": "black",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 351,
+    "albionId": "PSG-0050---1",
+    "name": "Middlemurk Path",
+    "tier": "VI",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 352,
+    "albionId": "0008",
+    "name": "Morgana's Rest",
+    "tier": "I",
+    "color": "city",
+    "type": "PLAYERCITY_BLACK_NOFURNITURE",
+    "isDeep": false
+  },
+  {
+    "id": 353,
+    "albionId": "4006",
+    "name": "Mountain Cross",
+    "tier": "II",
+    "color": "city",
+    "type": "STARTINGCITY",
+    "isDeep": false
+  },
+  {
+    "id": 354,
+    "albionId": "0337",
+    "name": "Mudfoot Mounds",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 355,
+    "albionId": "0323",
+    "name": "Mudfoot Sump",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 833,
+    "albionId": "PSG-0045#1",
+    "name": "Mudrock Burrow",
+    "tier": "VI",
+    "color": "black",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 356,
+    "albionId": "PSG-0045---1",
+    "name": "Mudrock Burrow",
+    "tier": "VI",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 357,
+    "albionId": "4345",
+    "name": "Munten Fell",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 358,
+    "albionId": "4315",
+    "name": "Munten Rise",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 359,
+    "albionId": "4331",
+    "name": "Munten Tundra",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 360,
+    "albionId": "3306",
+    "name": "Murdergulch Cross",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 361,
+    "albionId": "3354",
+    "name": "Murdergulch Divide",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 362,
+    "albionId": "3307",
+    "name": "Murdergulch Gap",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 363,
+    "albionId": "3355",
+    "name": "Murdergulch Ravine",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 364,
+    "albionId": "3342",
+    "name": "Murdergulch Trail",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 365,
+    "albionId": "1210",
+    "name": "Murkweald",
+    "tier": "VII",
+    "color": "red",
+    "type": "OPENPVP_RED",
+    "isDeep": false
+  },
+  {
+    "id": 366,
+    "albionId": "PSG-0004---1",
+    "name": "Nightbloom Track",
+    "tier": "VI",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 832,
+    "albionId": "PSG-0004#1",
+    "name": "Nightbloom Track",
+    "tier": "VI",
+    "color": "black",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 367,
+    "albionId": "0207",
+    "name": "Nightcreak Marsh",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 368,
+    "albionId": "2326",
+    "name": "Northstrand Beach",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 369,
+    "albionId": "2305",
+    "name": "Northstrand Dunes",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 370,
+    "albionId": "1204",
+    "name": "Oakcopse",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 371,
+    "albionId": "TNL-201",
+    "name": "Oasitos-Aoeuam",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 372,
+    "albionId": "TNL-021",
+    "name": "Oasos-Eraerom",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 373,
+    "albionId": "TNL-017",
+    "name": "Oasos-Uromlum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 374,
+    "albionId": "TNL-221",
+    "name": "Oebitos-Eraerom",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 375,
+    "albionId": "TNL-254",
+    "name": "Oebitos-Oyozam",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 376,
+    "albionId": "TNL-012",
+    "name": "Oebos-Ixakaum",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 377,
+    "albionId": "TNL-324",
+    "name": "Oeritos-Ecunsum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 378,
+    "albionId": "TNL-268",
+    "name": "Oeritos-Oyexlos",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 379,
+    "albionId": "TNL-103",
+    "name": "Oetos-Ofailos",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 380,
+    "albionId": "TNL-068",
+    "name": "Oetos-Oyexlos",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 381,
+    "albionId": "TNL-212",
+    "name": "Oieitos-Ixakaum",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 382,
+    "albionId": "TNL-009",
+    "name": "Oieos-Umiutum",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 383,
+    "albionId": "TNL-116",
+    "name": "Oires-Oloblum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 384,
+    "albionId": "TNL-280",
+    "name": "Oiritos-Eramtum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 385,
+    "albionId": "TNL-133",
+    "name": "Oiros-Alaiam",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 386,
+    "albionId": "TNL-209",
+    "name": "Oonitos-Umiutum",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 387,
+    "albionId": "TNL-099",
+    "name": "Ooros-Ataltum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 388,
+    "albionId": "TNL-124",
+    "name": "Ooros-Ecunsum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 389,
+    "albionId": "TNL-333",
+    "name": "Oouitos-Alaiam",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 390,
+    "albionId": "PSG-0006",
+    "name": "Ore Adit",
+    "tier": "VII",
+    "color": "red",
+    "type": "PASSAGE_RED",
+    "isDeep": false
+  },
+  {
+    "id": 391,
+    "albionId": "TNL-029",
+    "name": "Oures-Araosum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 392,
+    "albionId": "TNL-299",
+    "name": "Ouritos-Ataltum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 393,
+    "albionId": "TNL-303",
+    "name": "Ouritos-Ofailos",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 394,
+    "albionId": "TNL-001",
+    "name": "Ouyos-Aoeuam",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 395,
+    "albionId": "TNL-229",
+    "name": "Oynites-Araosum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 396,
+    "albionId": "TNL-316",
+    "name": "Oynites-Oloblum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 397,
+    "albionId": "TNL-217",
+    "name": "Oynitos-Uromlum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 398,
+    "albionId": "TNL-080",
+    "name": "Oynos-Eramtum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 399,
+    "albionId": "TNL-054",
+    "name": "Oynos-Oyozam",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 400,
+    "albionId": "2331",
+    "name": "Parchsand Cliffs",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 401,
+    "albionId": "2359",
+    "name": "Parchsand Drought",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 402,
+    "albionId": "2206",
+    "name": "Parchthroat Plain",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 403,
+    "albionId": "TNL-016",
+    "name": "Pasos-Avosam",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 404,
+    "albionId": "TNL-074",
+    "name": "Pebos-Avosrom",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 405,
+    "albionId": "4201",
+    "name": "Pen Garn",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 406,
+    "albionId": "4207",
+    "name": "Pen Gent",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 407,
+    "albionId": "4204",
+    "name": "Pen Kerrig",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 408,
+    "albionId": "4249",
+    "name": "Pen Uchaf",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 409,
+    "albionId": "TNL-216",
+    "name": "Peritos-Avosam",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 410,
+    "albionId": "TNL-321",
+    "name": "Peritos-Oconun",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 411,
+    "albionId": "TNL-110",
+    "name": "Peros-Aiataum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 412,
+    "albionId": "TNL-203",
+    "name": "Petitos-Amayam",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 413,
+    "albionId": "TNL-274",
+    "name": "Petitos-Avosrom",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 414,
+    "albionId": "TNL-119",
+    "name": "Petos-Aietam",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 415,
+    "albionId": "TNL-141",
+    "name": "Pieos-Eterrom",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 416,
+    "albionId": "TNL-111",
+    "name": "Pieos-Ofairom",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 417,
+    "albionId": "TNL-341",
+    "name": "Pilitos-Eterrom",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 418,
+    "albionId": "TNL-250",
+    "name": "Pirites-Unatam",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 419,
+    "albionId": "TNL-305",
+    "name": "Piritos-Ofavam",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 420,
+    "albionId": "TNL-343",
+    "name": "Piritos-Opabrom",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 421,
+    "albionId": "TNL-292",
+    "name": "Ponitos-Aiayrom",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 422,
+    "albionId": "TNL-092",
+    "name": "Poros-Aiayrom",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 423,
+    "albionId": "TNL-121",
+    "name": "Poros-Oconun",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 424,
+    "albionId": "TNL-050",
+    "name": "Poues-Unatam",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 425,
+    "albionId": "TNL-311",
+    "name": "Pouitos-Ofairom",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 426,
+    "albionId": "2215",
+    "name": "Prospector's Hope",
+    "tier": "III",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 427,
+    "albionId": "TNL-004",
+    "name": "Pures-Ouozlum",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 428,
+    "albionId": "TNL-003",
+    "name": "Puros-Amayam",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 429,
+    "albionId": "TNL-105",
+    "name": "Puros-Ofavam",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 430,
+    "albionId": "TNL-310",
+    "name": "Puyitos-Aiataum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 431,
+    "albionId": "TNL-204",
+    "name": "Pynites-Ouozlum",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 432,
+    "albionId": "TNL-319",
+    "name": "Pynitos-Aietam",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 433,
+    "albionId": "TNL-143",
+    "name": "Pynos-Opabrom",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 434,
+    "albionId": "TNL-171",
+    "name": "Qiient-Al-Nusom",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 435,
+    "albionId": "TNL-163",
+    "name": "Qiient-Al-Odesum",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 436,
+    "albionId": "TNL-176",
+    "name": "Qiient-Al-Qinsis",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 437,
+    "albionId": "TNL-166",
+    "name": "Qiient-Al-Tersas",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 438,
+    "albionId": "TNL-170",
+    "name": "Qiient-Al-Viesis",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 439,
+    "albionId": "TNL-164",
+    "name": "Qiient-Al-Vynsis",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 440,
+    "albionId": "TNL-172",
+    "name": "Qiient-Et-Nusas",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 441,
+    "albionId": "TNL-173",
+    "name": "Qiient-Et-Odetis",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 442,
+    "albionId": "TNL-369",
+    "name": "Qiient-Et-Qinsum",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 443,
+    "albionId": "TNL-168",
+    "name": "Qiient-Et-Tertum",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 444,
+    "albionId": "TNL-361",
+    "name": "Qiient-In-Nutis",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 445,
+    "albionId": "TNL-174",
+    "name": "Qiient-In-Odetum",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 446,
+    "albionId": "TNL-376",
+    "name": "Qiient-In-Qinsis",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 447,
+    "albionId": "TNL-359",
+    "name": "Qiient-In-Tersom",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 448,
+    "albionId": "TNL-370",
+    "name": "Qiient-In-Viesis",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 449,
+    "albionId": "TNL-362",
+    "name": "Qiient-In-Vyntum",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 450,
+    "albionId": "TNL-161",
+    "name": "Qiient-Nutis",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 451,
+    "albionId": "TNL-374",
+    "name": "Qiient-Oc-Odetum",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 452,
+    "albionId": "TNL-160",
+    "name": "Qiient-Odesas",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 453,
+    "albionId": "TNL-371",
+    "name": "Qiient-Qi-Nusom",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 454,
+    "albionId": "TNL-360",
+    "name": "Qiient-Qi-Odesas",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 455,
+    "albionId": "TNL-366",
+    "name": "Qiient-Qi-Tersas",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 456,
+    "albionId": "TNL-364",
+    "name": "Qiient-Qi-Vynsis",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 457,
+    "albionId": "TNL-169",
+    "name": "Qiient-Qinsum",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 458,
+    "albionId": "TNL-373",
+    "name": "Qiient-Sa-Odetis",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 459,
+    "albionId": "TNL-372",
+    "name": "Qiient-Si-Nusas",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 460,
+    "albionId": "TNL-363",
+    "name": "Qiient-Si-Odesum",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 461,
+    "albionId": "TNL-368",
+    "name": "Qiient-Si-Tertum",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 462,
+    "albionId": "TNL-159",
+    "name": "Qiient-Tersom",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 463,
+    "albionId": "TNL-162",
+    "name": "Qiient-Vyntum",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 464,
+    "albionId": "TNL-375",
+    "name": "Qiitun-Al-Duosum",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 465,
+    "albionId": "TNL-175",
+    "name": "Qiitun-Duosum",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 466,
+    "albionId": "TNL-367",
+    "name": "Qiitun-Et-Vietis",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 467,
+    "albionId": "TNL-165",
+    "name": "Qiitun-Et-Vynsom",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 468,
+    "albionId": "TNL-365",
+    "name": "Qiitun-Si-Vynsom",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 469,
+    "albionId": "TNL-167",
+    "name": "Qiitun-Vietis",
+    "tier": "V",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 470,
+    "albionId": "TNL-158",
+    "name": "Quaent-Al-Nusis",
+    "tier": "IV",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 471,
+    "albionId": "TNL-157",
+    "name": "Quaent-Al-Odesum",
+    "tier": "IV",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 472,
+    "albionId": "TNL-355",
+    "name": "Quaent-Al-Qintis",
+    "tier": "IV",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 473,
+    "albionId": "TNL-352",
+    "name": "Quaent-Al-Tersis",
+    "tier": "IV",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 474,
+    "albionId": "TNL-353",
+    "name": "Quaent-Al-Viesom",
+    "tier": "IV",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 475,
+    "albionId": "TNL-351",
+    "name": "Quaent-Al-Vynsum",
+    "tier": "IV",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 476,
+    "albionId": "TNL-358",
+    "name": "Quaent-In-Nusis",
+    "tier": "IV",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 477,
+    "albionId": "TNL-357",
+    "name": "Quaent-In-Odesum",
+    "tier": "IV",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 478,
+    "albionId": "TNL-155",
+    "name": "Quaent-Qintis",
+    "tier": "IV",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 479,
+    "albionId": "TNL-152",
+    "name": "Quaent-Tersis",
+    "tier": "IV",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 480,
+    "albionId": "TNL-153",
+    "name": "Quaent-Viesom",
+    "tier": "IV",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 481,
+    "albionId": "TNL-151",
+    "name": "Quaent-Vynsum",
+    "tier": "IV",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 482,
+    "albionId": "TNL-354",
+    "name": "Quatun-Et-Nusas",
+    "tier": "IV",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 483,
+    "albionId": "TNL-356",
+    "name": "Quatun-Et-Odetum",
+    "tier": "IV",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 484,
+    "albionId": "TNL-154",
+    "name": "Quatun-Nusas",
+    "tier": "IV",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 485,
+    "albionId": "TNL-156",
+    "name": "Quatun-Odetum",
+    "tier": "IV",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 486,
+    "albionId": "3345",
+    "name": "Razorrock Bank",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 487,
+    "albionId": "3343",
+    "name": "Razorrock Chasm",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 488,
+    "albionId": "3332",
+    "name": "Razorrock Edge",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 489,
+    "albionId": "3356",
+    "name": "Razorrock Gulch",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 490,
+    "albionId": "3308",
+    "name": "Razorrock Passage",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 491,
+    "albionId": "3330",
+    "name": "Razorrock Ravine",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 492,
+    "albionId": "3310",
+    "name": "Razorrock Valley",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 493,
+    "albionId": "3344",
+    "name": "Razorrock Verge",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 494,
+    "albionId": "1208",
+    "name": "Redlake",
+    "tier": "III",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 495,
+    "albionId": "3359",
+    "name": "Redtree Enclave",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 496,
+    "albionId": "1318",
+    "name": "Rivercopse Crossing",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 497,
+    "albionId": "1346",
+    "name": "Rivercopse Curve",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 498,
+    "albionId": "1359",
+    "name": "Rivercopse Fount",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 499,
+    "albionId": "1349",
+    "name": "Rivercopse Path",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 500,
+    "albionId": "2203",
+    "name": "Roastcorpse Steppe",
+    "tier": "VI",
+    "color": "red",
+    "type": "OPENPVP_RED",
+    "isDeep": false
+  },
+  {
+    "id": 502,
+    "albionId": "PSG-0003",
+    "name": "Rock Adit",
+    "tier": "VII",
+    "color": "red",
+    "type": "PASSAGE_RED",
+    "isDeep": false
+  },
+  {
+    "id": 501,
+    "albionId": "PSG-0001",
+    "name": "Rock Adit",
+    "tier": "V",
+    "color": "red",
+    "type": "PASSAGE_RED",
+    "isDeep": false
+  },
+  {
+    "id": 503,
+    "albionId": "1203",
+    "name": "Rowanwood",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 504,
+    "albionId": "3245",
+    "name": "Runnel Sink",
+    "tier": "VII",
+    "color": "red",
+    "type": "OPENPVP_RED",
+    "isDeep": false
+  },
+  {
+    "id": 505,
+    "albionId": "0326",
+    "name": "Runnelvein Bog",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 506,
+    "albionId": "0341",
+    "name": "Runnelvein Sink",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 507,
+    "albionId": "0311",
+    "name": "Runnelvein Slough",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 508,
+    "albionId": "1202",
+    "name": "Russerdell",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 646,
+    "albionId": "STUB-0502",
+    "name": "STUB-0502",
+    "tier": "V",
+    "color": " ",
+    "type": "PASSAGE_SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 509,
+    "albionId": "PSG-0004",
+    "name": "Sabertooth Den",
+    "tier": "VI",
+    "color": "red",
+    "type": "PASSAGE_RED",
+    "isDeep": false
+  },
+  {
+    "id": 510,
+    "albionId": "3211",
+    "name": "Saddle Tor",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 511,
+    "albionId": "2358",
+    "name": "Sandmount Ascent",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 512,
+    "albionId": "2349",
+    "name": "Sandmount Desert",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 513,
+    "albionId": "2318",
+    "name": "Sandmount Esker",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 514,
+    "albionId": "2312",
+    "name": "Sandmount Strand",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 515,
+    "albionId": "2323",
+    "name": "Sandrift Coast",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 516,
+    "albionId": "2350",
+    "name": "Sandrift Dunes",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 517,
+    "albionId": "2337",
+    "name": "Sandrift Expanse",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 518,
+    "albionId": "2352",
+    "name": "Sandrift Fringe",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 519,
+    "albionId": "2304",
+    "name": "Sandrift Portal East",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 520,
+    "albionId": "2303",
+    "name": "Sandrift Portal North",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 521,
+    "albionId": "2302",
+    "name": "Sandrift Portal West",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 522,
+    "albionId": "2322",
+    "name": "Sandrift Prairie",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 523,
+    "albionId": "2324",
+    "name": "Sandrift Shore",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 524,
+    "albionId": "2321",
+    "name": "Sandrift Steppe",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 525,
+    "albionId": "TNL-088",
+    "name": "Sases-Aoarsum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 526,
+    "albionId": "TNL-075",
+    "name": "Sases-Avuotum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 527,
+    "albionId": "TNL-335",
+    "name": "Sasitos-Oyarlum",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 528,
+    "albionId": "TNL-309",
+    "name": "Sasitos-Ugersum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 529,
+    "albionId": "TNL-283",
+    "name": "Sasitos-Umogaum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 530,
+    "albionId": "TNL-129",
+    "name": "Sasos-Abizaum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 531,
+    "albionId": "TNL-041",
+    "name": "Sasos-Egeylos",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 532,
+    "albionId": "TNL-056",
+    "name": "Sasos-Oiozlum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 533,
+    "albionId": "0353",
+    "name": "Scuttlesink Marsh",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 534,
+    "albionId": "0324",
+    "name": "Scuttlesink Mouth",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 535,
+    "albionId": "0306",
+    "name": "Scuttlesink Pools",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 536,
+    "albionId": "TNL-010",
+    "name": "Sebos-Avoirom",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 537,
+    "albionId": "TNL-149",
+    "name": "Sebos-Oyohun",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 538,
+    "albionId": "TNL-109",
+    "name": "Sebos-Ugersum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 539,
+    "albionId": "TNL-389",
+    "name": "Secent-Al-Duosom",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 540,
+    "albionId": "TNL-386",
+    "name": "Secent-Al-Nutum",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 541,
+    "albionId": "TNL-179",
+    "name": "Secent-Al-Odetis",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 542,
+    "albionId": "TNL-184",
+    "name": "Secent-Al-Qinsom",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 543,
+    "albionId": "TNL-187",
+    "name": "Secent-Al-Tersum",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 544,
+    "albionId": "TNL-381",
+    "name": "Secent-Al-Viesum",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 545,
+    "albionId": "TNL-189",
+    "name": "Secent-Duosom",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 546,
+    "albionId": "TNL-182",
+    "name": "Secent-Et-Odesis",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 547,
+    "albionId": "TNL-190",
+    "name": "Secent-Et-Qinsas",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 548,
+    "albionId": "TNL-380",
+    "name": "Secent-Et-Vyntum",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 549,
+    "albionId": "TNL-387",
+    "name": "Secent-In-Tersum",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 550,
+    "albionId": "TNL-186",
+    "name": "Secent-Nutum",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 551,
+    "albionId": "TNL-177",
+    "name": "Secent-Odesom",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 552,
+    "albionId": "TNL-377",
+    "name": "Secent-Qi-Odesom",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 553,
+    "albionId": "TNL-384",
+    "name": "Secent-Qi-Qinsom",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 554,
+    "albionId": "TNL-382",
+    "name": "Secent-Sa-Odesis",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 555,
+    "albionId": "TNL-379",
+    "name": "Secent-Si-Odetis",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 556,
+    "albionId": "TNL-390",
+    "name": "Secent-Si-Qinsas",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 557,
+    "albionId": "TNL-181",
+    "name": "Secent-Viesum",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 558,
+    "albionId": "TNL-180",
+    "name": "Secent-Vyntum",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 559,
+    "albionId": "TNL-185",
+    "name": "Sectun-Al-Vyntis",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 560,
+    "albionId": "TNL-378",
+    "name": "Sectun-Et-Tersas",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 561,
+    "albionId": "TNL-188",
+    "name": "Sectun-In-Odesis",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 562,
+    "albionId": "TNL-383",
+    "name": "Sectun-In-Qinsom",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 563,
+    "albionId": "TNL-385",
+    "name": "Sectun-In-Vyntis",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 564,
+    "albionId": "TNL-388",
+    "name": "Sectun-Oc-Odesis",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 565,
+    "albionId": "TNL-183",
+    "name": "Sectun-Qinsom",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 566,
+    "albionId": "TNL-178",
+    "name": "Sectun-Tersas",
+    "tier": "VI",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 567,
+    "albionId": "TNL-241",
+    "name": "Seritos-Egeylos",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 568,
+    "albionId": "TNL-252",
+    "name": "Seritos-Onaytum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 569,
+    "albionId": "TNL-396",
+    "name": "Setent-Al-Duosas",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 570,
+    "albionId": "TNL-199",
+    "name": "Setent-Al-Qinsum",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 571,
+    "albionId": "TNL-391",
+    "name": "Setent-Al-Vietis",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 572,
+    "albionId": "TNL-196",
+    "name": "Setent-Duosas",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 573,
+    "albionId": "TNL-393",
+    "name": "Setent-Et-Nusum",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 574,
+    "albionId": "TNL-397",
+    "name": "Setent-Et-Qintis",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 575,
+    "albionId": "TNL-399",
+    "name": "Setent-In-Qinsum",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 576,
+    "albionId": "TNL-193",
+    "name": "Setent-Nusum",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 577,
+    "albionId": "TNL-197",
+    "name": "Setent-Qintis",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 578,
+    "albionId": "TNL-191",
+    "name": "Setent-Vietis",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT",
+    "isDeep": false
+  },
+  {
+    "id": 579,
+    "albionId": "TNL-282",
+    "name": "Setitos-Obobrom",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 580,
+    "albionId": "TNL-106",
+    "name": "Setos-Aiaitum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 581,
+    "albionId": "TNL-034",
+    "name": "Setos-Avamsum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 582,
+    "albionId": "TNL-200",
+    "name": "Settun-Al-Nusis",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 583,
+    "albionId": "TNL-198",
+    "name": "Settun-Al-Odetum",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 584,
+    "albionId": "TNL-395",
+    "name": "Settun-Al-Tersom",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 585,
+    "albionId": "TNL-394",
+    "name": "Settun-Al-Vynsis",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 586,
+    "albionId": "TNL-392",
+    "name": "Settun-Et-Odetum",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 587,
+    "albionId": "TNL-400",
+    "name": "Settun-In-Nusis",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 588,
+    "albionId": "TNL-398",
+    "name": "Settun-In-Odetum",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 589,
+    "albionId": "TNL-192",
+    "name": "Settun-Odetum",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 590,
+    "albionId": "TNL-195",
+    "name": "Settun-Tersom",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 591,
+    "albionId": "TNL-194",
+    "name": "Settun-Vynsis",
+    "tier": "VII",
+    "color": "road-ho",
+    "type": "TUNNEL_HIDEOUT_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 822,
+    "albionId": "PSG-0051#1",
+    "name": "Shale Underway",
+    "tier": "VI",
+    "color": "black",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 592,
+    "albionId": "PSG-0051---1",
+    "name": "Shale Underway",
+    "tier": "VI",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 593,
+    "albionId": "3326",
+    "name": "Shaleheath Hills",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 594,
+    "albionId": "3338",
+    "name": "Shaleheath Steep",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 595,
+    "albionId": "2205",
+    "name": "Shiftshadow Expanse",
+    "tier": "VII",
+    "color": "red",
+    "type": "OPENPVP_RED",
+    "isDeep": false
+  },
+  {
+    "id": 596,
+    "albionId": "TNL-112",
+    "name": "Sieos-Ofugtum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 597,
+    "albionId": "TNL-329",
+    "name": "Silitos-Abizaum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 598,
+    "albionId": "TNL-094",
+    "name": "Silos-Apenlum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 599,
+    "albionId": "TNL-135",
+    "name": "Silos-Oyarlum",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 600,
+    "albionId": "TNL-210",
+    "name": "Siritos-Avoirom",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 601,
+    "albionId": "TNL-349",
+    "name": "Siritos-Oyohun",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 602,
+    "albionId": "TNL-082",
+    "name": "Siros-Obobrom",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 603,
+    "albionId": "TNL-132",
+    "name": "Siros-Ofurlos",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 604,
+    "albionId": "0315",
+    "name": "Skullmarsh Lower",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 605,
+    "albionId": "0343",
+    "name": "Skullmarsh Upper",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 606,
+    "albionId": "3327",
+    "name": "Skylake Bridge",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 607,
+    "albionId": "3339",
+    "name": "Skylake Hinterlands",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 608,
+    "albionId": "2307",
+    "name": "Skysand Plateau",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 609,
+    "albionId": "2340",
+    "name": "Skysand Ridge",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 610,
+    "albionId": "2309",
+    "name": "Slakesands Canyon",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 611,
+    "albionId": "2342",
+    "name": "Slakesands Mesa",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 612,
+    "albionId": "0201",
+    "name": "Sleetwater Basin",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 613,
+    "albionId": "0214",
+    "name": "Slimehag",
+    "tier": "III",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 614,
+    "albionId": "2208",
+    "name": "Slowtree Plain",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 615,
+    "albionId": "2211",
+    "name": "Smoothfloor Cleft",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 616,
+    "albionId": "PSG-0052---1",
+    "name": "Smuggler's Rut",
+    "tier": "VI",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 823,
+    "albionId": "PSG-0052#1",
+    "name": "Smuggler's Rut",
+    "tier": "VI",
+    "color": "black",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 617,
+    "albionId": "2210",
+    "name": "Snapshaft Trough",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 618,
+    "albionId": "TNL-286",
+    "name": "Sonitos-Ayailos",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 619,
+    "albionId": "TNL-306",
+    "name": "Soritos-Aiaitum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 620,
+    "albionId": "TNL-294",
+    "name": "Soritos-Apenlum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 621,
+    "albionId": "TNL-234",
+    "name": "Soritos-Avamsum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 622,
+    "albionId": "TNL-005",
+    "name": "Soros-Axaesum",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 623,
+    "albionId": "TNL-098",
+    "name": "Soues-Uzurtum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 624,
+    "albionId": "TNL-256",
+    "name": "Souitos-Oiozlum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 625,
+    "albionId": "TNL-108",
+    "name": "Souos-Availos",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 626,
+    "albionId": "TNL-066",
+    "name": "Souos-Ososlos",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 627,
+    "albionId": "TNL-083",
+    "name": "Souos-Umogaum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 628,
+    "albionId": "1337",
+    "name": "Southgrove Copse",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 629,
+    "albionId": "1314",
+    "name": "Southgrove Escarp",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 630,
+    "albionId": "1350",
+    "name": "Southgrove Thicket",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 631,
+    "albionId": "0211",
+    "name": "Spectral Sump",
+    "tier": "VI",
+    "color": "red",
+    "type": "OPENPVP_RED",
+    "isDeep": false
+  },
+  {
+    "id": 632,
+    "albionId": "0321",
+    "name": "Springsump Basin",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 633,
+    "albionId": "0351",
+    "name": "Springsump Melt",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 634,
+    "albionId": "0335",
+    "name": "Springsump Wetland",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 635,
+    "albionId": "1212",
+    "name": "Stagbourne",
+    "tier": "III",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 636,
+    "albionId": "PSG-0044---1",
+    "name": "Stalagmite Adit",
+    "tier": "VI",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 820,
+    "albionId": "PSG-0044#1",
+    "name": "Stalagmite Adit",
+    "tier": "VI",
+    "color": "black",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 637,
+    "albionId": "2213",
+    "name": "Steelhide Meadow",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 638,
+    "albionId": "2002",
+    "name": "Steppe Cross",
+    "tier": "II",
+    "color": "city",
+    "type": "STARTINGCITY",
+    "isDeep": false
+  },
+  {
+    "id": 639,
+    "albionId": "0205",
+    "name": "Stinkhag",
+    "tier": "III",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 640,
+    "albionId": "3325",
+    "name": "Stonelake Fields",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 641,
+    "albionId": "3336",
+    "name": "Stonelake Hillock",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 642,
+    "albionId": "3335",
+    "name": "Stonemouth Bay",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 643,
+    "albionId": "3314",
+    "name": "Stonemouth Northbluff",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 644,
+    "albionId": "3358",
+    "name": "Stonemouth Southbluff",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 818,
+    "albionId": "PSG-0042#1",
+    "name": "Stoneslip Passage",
+    "tier": "VI",
+    "color": "black",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 645,
+    "albionId": "PSG-0042---1",
+    "name": "Stoneslip Passage",
+    "tier": "VI",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 647,
+    "albionId": "0208",
+    "name": "Stumprot Swamp",
+    "tier": "VI",
+    "color": "red",
+    "type": "OPENPVP_RED",
+    "isDeep": false
+  },
+  {
+    "id": 648,
+    "albionId": "2330",
+    "name": "Sunfang Approach",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 649,
+    "albionId": "2343",
+    "name": "Sunfang Cliffs",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 650,
+    "albionId": "2357",
+    "name": "Sunfang Dawn",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 651,
+    "albionId": "2310",
+    "name": "Sunfang Ravine",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_5",
+    "isDeep": false
+  },
+  {
+    "id": 652,
+    "albionId": "2344",
+    "name": "Sunfang Wasteland",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 653,
+    "albionId": "0358",
+    "name": "Sunkenbough Spring",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 654,
+    "albionId": "0349",
+    "name": "Sunkenbough Woods",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 655,
+    "albionId": "2317",
+    "name": "Sunstrand Delta",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 656,
+    "albionId": "2335",
+    "name": "Sunstrand Dunes",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 657,
+    "albionId": "2348",
+    "name": "Sunstrand Quicksands",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 658,
+    "albionId": "2316",
+    "name": "Sunstrand Shoal",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 659,
+    "albionId": "TNL-275",
+    "name": "Suyites-Avuotum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 660,
+    "albionId": "TNL-298",
+    "name": "Suyites-Uzurtum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 661,
+    "albionId": "TNL-205",
+    "name": "Suyitos-Axaesum",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 662,
+    "albionId": "TNL-312",
+    "name": "Suyitos-Ofugtum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 663,
+    "albionId": "TNL-339",
+    "name": "Suyitos-Oyarlos",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 664,
+    "albionId": "TNL-052",
+    "name": "Suyos-Onaytum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 665,
+    "albionId": "PSG-0005",
+    "name": "Swamp Burrow",
+    "tier": "VII",
+    "color": "red",
+    "type": "PASSAGE_RED",
+    "isDeep": false
+  },
+  {
+    "id": 666,
+    "albionId": "0004",
+    "name": "Swamp Cross",
+    "tier": "II",
+    "color": "city",
+    "type": "STARTINGCITY",
+    "isDeep": false
+  },
+  {
+    "id": 667,
+    "albionId": "2339",
+    "name": "Swiftsands Basin",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 668,
+    "albionId": "2354",
+    "name": "Swiftsands Chaparral",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 669,
+    "albionId": "2306",
+    "name": "Swiftsands Plain",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 670,
+    "albionId": "TNL-288",
+    "name": "Synites-Aoarsum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 671,
+    "albionId": "TNL-308",
+    "name": "Synitos-Availos",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 672,
+    "albionId": "TNL-332",
+    "name": "Synitos-Ofurlos",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 673,
+    "albionId": "TNL-266",
+    "name": "Synitos-Ososlos",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 674,
+    "albionId": "TNL-086",
+    "name": "Synos-Ayailos",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 675,
+    "albionId": "TNL-139",
+    "name": "Synos-Oyarlos",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 676,
+    "albionId": "TNL-235",
+    "name": "Tasitos-Obayam",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 677,
+    "albionId": "TNL-228",
+    "name": "Tasitos-Ulaurom",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 678,
+    "albionId": "TNL-113",
+    "name": "Tasos-Iriglos",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 679,
+    "albionId": "TNL-222",
+    "name": "Tebitos-Igaelum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 680,
+    "albionId": "TNL-314",
+    "name": "Tebitos-Odoxlum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 681,
+    "albionId": "TNL-011",
+    "name": "Teros-Auiusum",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 682,
+    "albionId": "TNL-290",
+    "name": "Tetitos-Ayoslum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 683,
+    "albionId": "TNL-022",
+    "name": "Tetos-Igaelum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 684,
+    "albionId": "TNL-028",
+    "name": "Tetos-Ulaurom",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 685,
+    "albionId": "4206",
+    "name": "Tharcal Fissure",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false,
+    "info": {
+      "markers": [],
+      "resources": [],
+      "mobs": [
+        {
+          "name": "KEEPER AXE THROWER",
+          "tier": "V",
+          "count": 30
+        },
+        {
+          "name": "KEEPER BERSERK",
+          "tier": "V",
+          "count": 30
+        },
+        {
+          "name": "KEEPER CHEST",
+          "tier": "V",
+          "count": 12
+        },
+        {
+          "name": "KEEPER DRUID",
+          "tier": "V",
+          "count": 25
+        },
+        {
+          "name": "KEEPER GIANT",
+          "tier": "V",
+          "count": 8
+        },
+        {
+          "name": "KEEPER UNPROVEN FEMALE",
+          "tier": "V",
+          "count": 66
+        },
+        {
+          "name": "KEEPER UNPROVEN MALE",
+          "tier": "V",
+          "count": 42
+        }
+      ],
+      "royalConnections": [
+        {
+          "id": 32,
+          "name": "Cairn Gorm",
+          "tier": "V",
+          "type": "OPENPVP_YELLOW",
+          "color": "yellow"
+        },
+        {
+          "id": 78,
+          "name": "Creag Garr",
+          "tier": "VI",
+          "type": "OPENPVP_RED",
+          "color": "red"
+        },
+        {
+          "id": 406,
+          "name": "Pen Gent",
+          "tier": "IV",
+          "type": "SAFEAREA",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": 686,
+    "albionId": "CenterCity-DNG-01",
+    "name": "The Underway",
+    "tier": "VII",
+    "color": "red",
+    "type": "PASSAGE_RED",
+    "isDeep": false
+  },
+  {
+    "id": 687,
+    "albionId": "0000",
+    "name": "Thetford",
+    "tier": "I",
+    "color": "city",
+    "type": "PLAYERCITY_SAFEAREA_01",
+    "isDeep": false
+  },
+  {
+    "id": 688,
+    "albionId": "2346",
+    "name": "Thirstwater Gully",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 689,
+    "albionId": "2311",
+    "name": "Thirstwater Steppe",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 690,
+    "albionId": "2329",
+    "name": "Thirstwater Waste",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 691,
+    "albionId": "3340",
+    "name": "Thunderrock Ascent",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 692,
+    "albionId": "3353",
+    "name": "Thunderrock Draw",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 693,
+    "albionId": "3329",
+    "name": "Thunderrock Rapids",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 694,
+    "albionId": "3341",
+    "name": "Thunderrock Upland",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 695,
+    "albionId": "TNL-270",
+    "name": "Tieitos-Eyexrom",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 696,
+    "albionId": "TNL-244",
+    "name": "Tieitos-Ouultum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 697,
+    "albionId": "TNL-090",
+    "name": "Tieos-Ayoslum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 698,
+    "albionId": "TNL-320",
+    "name": "Tilitos-Ataglos",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 699,
+    "albionId": "1342",
+    "name": "Timberscar Copse",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 700,
+    "albionId": "1309",
+    "name": "Timberscar Dell",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 701,
+    "albionId": "1354",
+    "name": "Timberslope Bridge",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 702,
+    "albionId": "1326",
+    "name": "Timberslope Dell",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 703,
+    "albionId": "1339",
+    "name": "Timberslope Grove",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 704,
+    "albionId": "1325",
+    "name": "Timbertop Dale",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 705,
+    "albionId": "1353",
+    "name": "Timbertop Escarp",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 706,
+    "albionId": "1338",
+    "name": "Timbertop Wood",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 707,
+    "albionId": "TNL-114",
+    "name": "Tiros-Odoxlum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 708,
+    "albionId": "TNL-044",
+    "name": "Tiros-Ouultum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 709,
+    "albionId": "TNL-304",
+    "name": "Tonitos-Igurlum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 710,
+    "albionId": "TNL-307",
+    "name": "Tonitos-Uxavrom",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 711,
+    "albionId": "TNL-147",
+    "name": "Tonos-Aboysum",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 712,
+    "albionId": "TNL-035",
+    "name": "Tonos-Obayam",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 713,
+    "albionId": "TNL-313",
+    "name": "Toritos-Iriglos",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 714,
+    "albionId": "TNL-120",
+    "name": "Touos-Ataglos",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 715,
+    "albionId": "TNL-013",
+    "name": "Touos-Uoemtum",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 716,
+    "albionId": "TNL-259",
+    "name": "Turitos-Atatlos",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 717,
+    "albionId": "TNL-213",
+    "name": "Turitos-Uoemtum",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 718,
+    "albionId": "TNL-347",
+    "name": "Tuyitos-Aboysum",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_DEEP",
+    "isDeep": true
+  },
+  {
+    "id": 719,
+    "albionId": "TNL-211",
+    "name": "Tuyitos-Auiusum",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 720,
+    "albionId": "0350",
+    "name": "Twinchannel Narrows",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 721,
+    "albionId": "TNL-059",
+    "name": "Tynos-Atatlos",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 722,
+    "albionId": "TNL-070",
+    "name": "Tynos-Eyexrom",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 723,
+    "albionId": "TNL-104",
+    "name": "Tynos-Igurlum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 724,
+    "albionId": "TNL-107",
+    "name": "Tynos-Uxavrom",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 725,
+    "albionId": "0357",
+    "name": "Unhallowed Cloister",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 726,
+    "albionId": "3213",
+    "name": "Vixen Tor",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 727,
+    "albionId": "2356",
+    "name": "Wailing Bulwark",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_6",
+    "isDeep": false
+  },
+  {
+    "id": 728,
+    "albionId": "1330",
+    "name": "Watchwood Bluffs",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 729,
+    "albionId": "1315",
+    "name": "Watchwood Grove",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 730,
+    "albionId": "1329",
+    "name": "Watchwood Lakeside",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 731,
+    "albionId": "1311",
+    "name": "Watchwood Precipice",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 732,
+    "albionId": "1351",
+    "name": "Westweald Shore",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 733,
+    "albionId": "1323",
+    "name": "Westweald Thicket",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 734,
+    "albionId": "0305",
+    "name": "Wetgrave Bog",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 735,
+    "albionId": "0342",
+    "name": "Wetgrave Marsh",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 736,
+    "albionId": "0339",
+    "name": "Wetgrave Swale",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 737,
+    "albionId": "4311",
+    "name": "Whitebank Cross",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 738,
+    "albionId": "4305",
+    "name": "Whitebank Descent",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 739,
+    "albionId": "4304",
+    "name": "Whitebank Portal East",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 740,
+    "albionId": "4302",
+    "name": "Whitebank Portal North",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 741,
+    "albionId": "4303",
+    "name": "Whitebank Portal South",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 742,
+    "albionId": "4338",
+    "name": "Whitebank Ridge",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 743,
+    "albionId": "4309",
+    "name": "Whitebank Shore",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 744,
+    "albionId": "4308",
+    "name": "Whitebank Stream",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 745,
+    "albionId": "4326",
+    "name": "Whitebank Wall",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 819,
+    "albionId": "PSG-0049#1",
+    "name": "Whitecap Cave",
+    "tier": "VI",
+    "color": "black",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 746,
+    "albionId": "PSG-0049---1",
+    "name": "Whitecap Cave",
+    "tier": "VI",
+    "color": " ",
+    "type": "PASSAGE_BLACK",
+    "isDeep": false
+  },
+  {
+    "id": 747,
+    "albionId": "4350",
+    "name": "Whitecliff Expanse",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 748,
+    "albionId": "4334",
+    "name": "Whitecliff Peak",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 749,
+    "albionId": "4317",
+    "name": "Whitepeak Ascent",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 750,
+    "albionId": "4348",
+    "name": "Whitepeak Spring",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 751,
+    "albionId": "4357",
+    "name": "Whitepeak Tundra",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 752,
+    "albionId": "4359",
+    "name": "Whitewall Pass",
+    "tier": "VIII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 753,
+    "albionId": "4352",
+    "name": "Whitewall Ridge",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_4",
+    "isDeep": false
+  },
+  {
+    "id": 754,
+    "albionId": "0317",
+    "name": "Widemoor Delta",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 755,
+    "albionId": "0330",
+    "name": "Widemoor End",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 756,
+    "albionId": "0316",
+    "name": "Widemoor Estuary",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 757,
+    "albionId": "0348",
+    "name": "Widemoor Fen",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 758,
+    "albionId": "0334",
+    "name": "Widemoor Flats",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 759,
+    "albionId": "0327",
+    "name": "Widemoor Hills",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 760,
+    "albionId": "0312",
+    "name": "Widemoor Pool",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 761,
+    "albionId": "0302",
+    "name": "Widemoor Portal North",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 762,
+    "albionId": "0303",
+    "name": "Widemoor Portal South",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 763,
+    "albionId": "0304",
+    "name": "Widemoor Portal West",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 764,
+    "albionId": "0309",
+    "name": "Widemoor Shore",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 765,
+    "albionId": "0333",
+    "name": "Widemoor Woods",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 766,
+    "albionId": "1206",
+    "name": "Willow Wood",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 767,
+    "albionId": "0344",
+    "name": "Willowshade Hills",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 768,
+    "albionId": "0320",
+    "name": "Willowshade Icemarsh",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 769,
+    "albionId": "0319",
+    "name": "Willowshade Lake",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 770,
+    "albionId": "0318",
+    "name": "Willowshade Mire",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 771,
+    "albionId": "0331",
+    "name": "Willowshade Pools",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_2",
+    "isDeep": false
+  },
+  {
+    "id": 772,
+    "albionId": "0345",
+    "name": "Willowshade Sink",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_3",
+    "isDeep": false
+  },
+  {
+    "id": 773,
+    "albionId": "0314",
+    "name": "Willowshade Wetlands",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 774,
+    "albionId": "0203",
+    "name": "Willowsigh Marsh",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 775,
+    "albionId": "3318",
+    "name": "Windgrass Border",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 776,
+    "albionId": "3334",
+    "name": "Windgrass Coast",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 777,
+    "albionId": "3333",
+    "name": "Windgrass Fields",
+    "tier": "VI",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 778,
+    "albionId": "3320",
+    "name": "Windgrass Gully",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 779,
+    "albionId": "3303",
+    "name": "Windgrass Portal North",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 780,
+    "albionId": "3304",
+    "name": "Windgrass Portal South",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 781,
+    "albionId": "3302",
+    "name": "Windgrass Portal West",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 782,
+    "albionId": "3322",
+    "name": "Windgrass Precipice",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 783,
+    "albionId": "3321",
+    "name": "Windgrass Rill",
+    "tier": "V",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 784,
+    "albionId": "3350",
+    "name": "Windgrass Terrace",
+    "tier": "VII",
+    "color": "black",
+    "type": "OPENPVP_BLACK_1",
+    "isDeep": false
+  },
+  {
+    "id": 785,
+    "albionId": "0204",
+    "name": "Windripple Fen",
+    "tier": "IV",
+    "color": "blue",
+    "type": "SAFEAREA",
+    "isDeep": false
+  },
+  {
+    "id": 786,
+    "albionId": "0210",
+    "name": "Wispwhisper Marsh",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  },
+  {
+    "id": 787,
+    "albionId": "1213",
+    "name": "Wyre Forest",
+    "tier": "VI",
+    "color": "red",
+    "type": "OPENPVP_RED",
+    "isDeep": false
+  },
+  {
+    "id": 788,
+    "albionId": "TNL-115",
+    "name": "Xases-Ataglos",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 789,
+    "albionId": "TNL-076",
+    "name": "Xases-Oxoulum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 790,
+    "albionId": "TNL-014",
+    "name": "Xasos-Aeoilos",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 791,
+    "albionId": "TNL-078",
+    "name": "Xasos-Aoemaum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 792,
+    "albionId": "TNL-053",
+    "name": "Xasos-Oneulum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 793,
+    "albionId": "TNL-257",
+    "name": "Xebitos-Oyogam",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 794,
+    "albionId": "TNL-067",
+    "name": "Xebos-Emimsum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 795,
+    "albionId": "TNL-069",
+    "name": "Xebos-Exostum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 796,
+    "albionId": "TNL-276",
+    "name": "Xerites-Oxoulum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 797,
+    "albionId": "TNL-267",
+    "name": "Xetitos-Emimsum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 798,
+    "albionId": "TNL-253",
+    "name": "Xetitos-Oneulum",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 799,
+    "albionId": "TNL-102",
+    "name": "Xetos-Obursum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 800,
+    "albionId": "TNL-087",
+    "name": "Xiles-Aiavlum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 801,
+    "albionId": "TNL-278",
+    "name": "Xilitos-Aoemaum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 802,
+    "albionId": "TNL-064",
+    "name": "Xilos-Osayam",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 803,
+    "albionId": "TNL-134",
+    "name": "Xiros-Aiairom",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 804,
+    "albionId": "TNL-287",
+    "name": "Xonites-Aiavlum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 805,
+    "albionId": "TNL-334",
+    "name": "Xoritos-Aiairom",
+    "tier": "VIII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 806,
+    "albionId": "TNL-269",
+    "name": "Xoritos-Exostum",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 807,
+    "albionId": "TNL-264",
+    "name": "Xoritos-Osayam",
+    "tier": "VI",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 808,
+    "albionId": "TNL-214",
+    "name": "Xouitos-Aeoilos",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 809,
+    "albionId": "TNL-215",
+    "name": "Xouitos-Eyoztum",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 810,
+    "albionId": "TNL-020",
+    "name": "Xouos-Aioblos",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 811,
+    "albionId": "TNL-315",
+    "name": "Xurites-Ataglos",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_MEDIUM",
+    "isDeep": false
+  },
+  {
+    "id": 812,
+    "albionId": "TNL-015",
+    "name": "Xuros-Eyoztum",
+    "tier": "IV",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 813,
+    "albionId": "TNL-220",
+    "name": "Xuyitos-Aioblos",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_ROYAL",
+    "isDeep": false
+  },
+  {
+    "id": 814,
+    "albionId": "TNL-302",
+    "name": "Xynitos-Obursum",
+    "tier": "VII",
+    "color": "road",
+    "type": "TUNNEL_BLACK_LOW",
+    "isDeep": false
+  },
+  {
+    "id": 815,
+    "albionId": "TNL-057",
+    "name": "Xynos-Oyogam",
+    "tier": "V",
+    "color": "road",
+    "type": "TUNNEL_BLACK_HIGH",
+    "isDeep": false
+  },
+  {
+    "id": 816,
+    "albionId": "1211",
+    "name": "Yew Wood",
+    "tier": "V",
+    "color": "yellow",
+    "type": "OPENPVP_YELLOW",
+    "isDeep": false
+  }
+]

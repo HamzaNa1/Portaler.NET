@@ -1,0 +1,247 @@
+﻿@page "/"
+
+@using Blazor.Extensions
+@using Blazor.Extensions.Canvas.Canvas2D
+@using Blazored.Typeahead
+@using Portaler.NET.Client.Visualiser
+@using Portaler.NET.Shared
+@using Portaler.NET.Shared.GameInfo
+
+@inject IJSRuntime _jsRuntime;
+@inject HttpClient _http;
+
+<PageTitle>Index</PageTitle>
+<div class="sidenav">
+    <div class="area" >
+        <BlazoredTypeahead SearchMethod="SearchZones" @bind-Value="_selectedZoneFrom" Debounce="1">
+            <SelectedTemplate>
+                @context.Name
+            </SelectedTemplate>
+            <ResultTemplate>
+                @context.Name
+            </ResultTemplate>
+        </BlazoredTypeahead>
+
+        <BlazoredTypeahead SearchMethod="SearchZones" @bind-Value="_selectedZoneTo" Debounce="1">
+            <SelectedTemplate>
+                @context.Name
+            </SelectedTemplate>
+            <ResultTemplate>
+                @context.Name
+            </ResultTemplate>
+        </BlazoredTypeahead>
+
+        <div>
+            h
+            <input type="number" name="h" step="1" style="width: 50px" @oninput="(eventArgs) => { h = eventArgs.Value.ToString() == string.Empty ? 0 : int.Parse(eventArgs.Value.ToString()); }"/>
+            m
+            <input type="number" name="m" step="1" style="width: 50px" @oninput="(eventArgs) => { m = eventArgs.Value.ToString() == string.Empty ? 0 : int.Parse(eventArgs.Value.ToString()); }"/>
+        </div>
+        
+        <div>
+            <button style="background-color: lightgreen" onclick="@SetGreen">2</button>
+            <button style="background-color: cornflowerblue" onclick="@SetBlue">7</button>
+            <button style="background-color: palegoldenrod" onclick="@SetGold">20</button>
+        </div>
+        
+        <button onclick="@AddConnection">Add</button>
+
+        <textarea rows="1" @bind="@_ticketString"></textarea>
+        <button onclick="@CheckAuthTicket">Auth</button>
+    </div>
+</div>
+
+<div class="main">
+    <div id="canvasContainer" style="position: fixed; opacity: 1; background-color: black; width: 100%; height: 100%">
+        <BECanvas @ref="_canvas"/>
+    </div>
+</div>
+
+@code
+{
+    BECanvasComponent? _canvas;
+    Canvas2DContext? _context;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (!firstRender)
+            return;
+
+        _context = await _canvas.CreateCanvas2DAsync();
+        
+        await InitGame();
+    }
+
+    private async Task InitGame()
+    {
+        CanvasMeta? canvasMeta = await _jsRuntime.InvokeAsync<CanvasMeta>("initCanvas", DotNetObjectReference.Create(this));
+
+        if (_canvas != null)
+        {
+            _canvas.Height = canvasMeta.Height;
+            _canvas.Width = canvasMeta.Width;
+        }
+
+        await _jsRuntime.InvokeAsync<object>("gameWindowResize", DotNetObjectReference.Create(this));
+    }
+
+    [JSInvokable]
+    public async ValueTask GameLoop()
+    {
+        if (_map is null || _context is null || _canvas is null)
+        {
+            return;
+        }
+
+        _map.Update(0);
+        if (_selectedBall is not null)
+        {
+            _selectedBall.Position = new Vector2d(_mousePos.X, _mousePos.Y);
+        }
+        
+        await _context.SetFillStyleAsync("rgb(112, 128, 144)");
+        await _context.FillRectAsync(0, 0, _canvas.Width, _canvas.Height);
+        await Drawer.DrawMap(_map, _context, _canvas.Width, _canvas.Height);
+    }
+
+    [JSInvokable]
+    public async ValueTask OnResize(int screenWidth, int screenHeight)
+    {
+        if (_canvas is null)
+        {
+            return;
+        }
+
+        _canvas.Width = screenWidth - 220;
+        _canvas.Height = screenHeight;
+    }
+
+    private bool _left;
+    private Ball? _selectedBall;
+    [JSInvokable]
+    public async ValueTask OnClick(string type, double x, double y)
+    {
+        if (_canvas is null)
+        {
+            return;
+        }
+        
+
+        x -= 220;
+
+        if (x < 0 || y < 0)
+        {
+            return;
+        }
+
+        x -= _canvas.Width / 2.0;
+        y -= _canvas.Height / 2.0;
+        
+        if (type == "mousedown")
+        {
+            if (!_left)
+            {
+                _left = true;
+                _selectedBall = _map?.GetBall(x, y);
+            }
+        }
+        else if (type == "mouseup")
+        {
+            _selectedBall = null;
+            _left = false;
+        }
+    }
+
+    Vector2d _mousePos = Vector2d.Zero;
+    [JSInvokable]
+    public async Task OnMouseMove(double x, double y)
+    {
+        if (_canvas is null)
+        {
+            return;
+        }
+        
+        x -= _canvas.Width / 2.0 + 220;
+        y -= _canvas.Height / 2.0;
+
+        _mousePos = new Vector2d(x, y);
+    }
+
+    private Map? _map;
+
+    protected override async Task OnInitializedAsync()
+    {
+        new Config(0, 0.08f, 0.025f, 50f, 0.0000001f, 300, true).SetAsDefault();
+        _map = new Map();
+
+        await ZoneGenerator.Initialize();
+    }
+
+    private void AddConnection()
+    {
+        if (_map is null || _selectedZoneFrom is null || _selectedZoneTo is null)
+            return;
+        
+        _map.AddConnection(_selectedZoneFrom, _selectedZoneTo, _connectionType, h, m);
+    }
+
+    private int h = 0;
+    private int m = 0;
+    
+    private ConnectionType _connectionType;
+
+    private void SetGreen()
+    {
+        _connectionType = ConnectionType.Green;
+    }
+
+    private void SetBlue()
+    {
+        _connectionType = ConnectionType.Blue;
+    }
+
+    private void SetGold()
+    {
+        _connectionType = ConnectionType.Gold;
+    }
+
+    private ZoneInfo? _selectedZoneTo;
+    private ZoneInfo? _selectedZoneFrom;
+
+    private static async Task<IEnumerable<ZoneInfo>> SearchZones(string searchText)
+    {
+        if (ZoneGenerator.Zones is null)
+        {
+            return Array.Empty<ZoneInfo>();
+        }
+
+        return await Task.FromResult(ZoneGenerator.Zones.Where(x => x.Name.ToLower().Contains(searchText.ToLower())).ToList());
+    }
+
+    private string _ticketString = string.Empty;
+
+    private async Task CheckAuthTicket()
+    {
+        AuthTicket? ticket = await _http.GetFromJsonAsync<AuthTicket>("AuthTicket");
+        if (ticket is null)
+        {
+            Console.WriteLine("Couldn't auth ticket, try again later.");
+            return;
+        }
+
+        if (ticket.Ticket == _ticketString)
+        {
+            await InitGame();
+        }
+        else
+        {
+            Console.WriteLine("Wrong Ticket");
+        }
+    }
+
+    public class CanvasMeta
+    {
+        public int Width { get; set; }
+        public int Height { get; set; }
+    }
+}

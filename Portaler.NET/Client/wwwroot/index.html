@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Portaler.NET</title>
+    <base href="/" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="Portaler.NET.Client.styles.css" rel="stylesheet" />
+    <link href="manifest.json" rel="manifest" />
+    <link href="_content/Blazored.Typeahead/blazored-typeahead.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
+</head>
+
+<body>
+    <div id="app">Loading...</div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
+
+    <script src="_content/Blazored.Typeahead/blazored-typeahead.js"></script>
+    <script src="_content/Blazor.Extensions.Canvas/blazor.extensions.canvas.js"></script>
+
+    <script>
+        function gameLoop(timeStamp) {
+            window.requestAnimationFrame(gameLoop);
+            game.instance.invokeMethodAsync('GameLoop');
+        }
+
+        function onResize() {
+            if (!window.game.canvas)
+                return;
+
+
+            let ratio = window.devicePixelRatio;
+
+            game.canvas.width = window.innerWidth ;
+            game.canvas.height = window.innerHeight ;
+            // game.canvas.style.width = window.innerWidth + "px";
+            // game.canvas.style.height = window.innerHeight + "px";
+
+            game.instance.invokeMethodAsync('OnResize', game.canvas.width, game.canvas.height);
+        }
+        
+        function onClick(event) {
+            if(!window.game.canvas)
+                return;
+            
+            game.instance.invokeMethodAsync('OnClick', event.type, event.clientX, event.clientY)
+        }
+        
+        function onMouseMove(event) {
+            if(!window.game.canvas)
+                return;
+
+            game.instance.invokeMethodAsync('OnMouseMove', event.clientX, event.clientY)
+        }
+
+        window.gameWindowResize = (instance) => {
+            onResize();
+        };
+
+        window.initCanvas = (instance) => {
+            let canvasContainer = document.getElementById('canvasContainer'),
+                canvases = canvasContainer.getElementsByTagName('canvas') || [];
+            window.game = {
+                instance: instance,
+                canvas: canvases.length ? canvases[0] : null
+            };
+
+            // if (window.game.canvas) {
+            //     window.game.canvas.onblur = (e) => {
+            //         window.game.canvas.focus();
+            //     };
+            //     window.game.canvas.tabIndex = 0;
+            //     window.game.canvas.focus();
+            // }
+
+            let ratio = window.devicePixelRatio;
+            canvases[0].getContext("2d").scale(ratio, ratio);
+
+            onResize();
+            window.addEventListener("resize", onResize);
+            window.game.canvas.addEventListener("mousedown", onClick);
+            window.game.canvas.addEventListener("mouseup", onClick);
+            window.game.canvas.addEventListener("mousemove", onMouseMove);
+            
+            window.requestAnimationFrame(gameLoop);
+
+            return {
+                Width: window.game.canvas.width,
+                Height: window.game.canvas.height
+            };
+        };
+    </script>
+</body>
+
+</html>
