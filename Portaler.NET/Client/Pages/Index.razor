@@ -56,6 +56,7 @@
     <br/>
     
     <button type="button" class="obj" style="width: 90%" onclick="@AddConnection">Add</button>
+    <button type="button" class="obj" style="width: 90%" onclick="@Clear">Clear</button>
 </div>
 
 <div class="main">
@@ -191,6 +192,18 @@
             return;
         
         _map.AddConnection(_selectedZoneFrom, _selectedZoneTo, _connectionType, _h, _m);
+    }
+
+    private async Task Clear()
+    {
+        if (_map is null)
+        {
+            return;
+        }
+        
+        _map.Clear();
+
+        await _map.Save(_localStorage);
     }
 
     private int _h = 0;
