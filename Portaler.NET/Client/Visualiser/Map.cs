@@ -5,6 +5,8 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
+using Blazored.LocalStorage;
 
 namespace Portaler.NET.Client.Visualiser
 {
@@ -89,13 +91,10 @@ namespace Portaler.NET.Client.Visualiser
         {
             Balls.Clear();
             Connections.Clear();
-
-            Save();
         }
 
         public void Update(double deltaTime)
         {
-            CheckConnections();
 
             /*CollidingBalls.Clear();
             MasterCollidingBalls.Clear();
@@ -182,9 +181,9 @@ namespace Portaler.NET.Client.Visualiser
             }*/
         }
 
-        private void CheckConnections()
+        public async Task CheckConnections(ILocalStorageService localStorage)
         {
-            bool updateMasters = false;
+            bool change = false;
             if (!connectionsToAdd.IsEmpty)
             {
                 while (!connectionsToAdd.IsEmpty)
@@ -194,8 +193,8 @@ namespace Portaler.NET.Client.Visualiser
                         AddConnection(connection);
                     }
                 }
-
-                updateMasters = true;
+                
+                change = true;
             }
 
             foreach (Connection connection in Connections.ToList())
@@ -213,14 +212,14 @@ namespace Portaler.NET.Client.Visualiser
                     {
                         Balls.Remove(connection.End);
                     }
-
-                    updateMasters = true;
+                    
+                    change = true;
                 }
             }
 
-            if (updateMasters)
+            if (change)
             {
-                UpdateMasters();
+                await Save(localStorage);
             }
         }
 
@@ -361,31 +360,38 @@ namespace Portaler.NET.Client.Visualiser
             return force;
         }
 
-        public void Save()
+        public async Task Save(ILocalStorageService localStorage)
         {
-            string[] data = new string[Connections.Count];
+            string data = string.Empty;
             for (int i = 0; i < Connections.Count; i++)
             {
                 Connection c = Connections[i];
                 if (c.Start.Zone == null || c.End.Zone == null)
                     continue;
 
-                data[i] = $"{c.Start.Zone.Name},{c.End.Zone.Name},{(int)c.ConnectionType},{c.EndTime}";
+                data += $"{c.Start.Zone.Name},{c.End.Zone.Name},{(int)c.ConnectionType},{c.EndTime}\n";
             }
 
-            File.WriteAllLines(SAVE_PATH, data);
+            await localStorage.SetItemAsStringAsync("mapData", data);
         }
 
-        public void Load()
+        public async Task Load(ILocalStorageService localStorage)
         {
-            if (!File.Exists("save.txt"))
+            if (!await localStorage.ContainKeyAsync("mapData"))
             {
                 return;
             }
 
-            string[] data = File.ReadAllLines(SAVE_PATH);
+            string mapData = await localStorage.GetItemAsStringAsync("mapData");
+            
+            string[] data = mapData.Split("\n");
             foreach (string line in data)
             {
+                if (string.IsNullOrWhiteSpace(line))
+                {
+                    continue;
+                }
+                
                 string[] lineData = line.Split(',');
 
                 ZoneInfo? start = ZoneGenerator.GetZone(lineData[0]);

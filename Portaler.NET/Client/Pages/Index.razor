@@ -9,6 +9,8 @@
 
 @inject IJSRuntime _jsRuntime;
 @inject HttpClient _http;
+@inject Blazored.LocalStorage.ILocalStorageService _localStorage;
+
 
 <PageTitle>Portaler.NET</PageTitle>
 <div class="sidenav">
@@ -40,9 +42,9 @@
     
     <div class="obj">
         <text>h</text>
-        <input type="number" name="h" step="1" style="width: 50px" @oninput="(eventArgs) => { h = eventArgs.Value.ToString() == string.Empty ? 0 : int.Parse(eventArgs.Value.ToString()); }"/>
+        <input type="number" name="h" step="1" style="width: 50px" @oninput="(eventArgs) => { _h = eventArgs.Value.ToString() == string.Empty ? 0 : int.Parse(eventArgs.Value.ToString()); }"/>
         <text style="margin-left: 10px">m</text>
-        <input type="number" name="m" step="1" style="width: 50px" @oninput="(eventArgs) => { m = eventArgs.Value.ToString() == string.Empty ? 0 : int.Parse(eventArgs.Value.ToString()); }"/>
+        <input type="number" name="m" step="1" style="width: 50px" @oninput="(eventArgs) => { _m = eventArgs.Value.ToString() == string.Empty ? 0 : int.Parse(eventArgs.Value.ToString()); }"/>
     </div>
         
     <div class="obj" style="overflow: hidden; white-space: nowrap">
@@ -98,7 +100,7 @@
             return;
         }
 
-        _map.Update(0);
+        await _map.CheckConnections(_localStorage);
         if (_selectedBall is not null)
         {
             _selectedBall.Position = new Vector2d(_mousePos.X, _mousePos.Y);
@@ -180,18 +182,19 @@
         _map = new Map();
 
         await ZoneGenerator.Initialize();
+        await _map.Load(_localStorage);
     }
 
-    private void AddConnection()
+    private async Task AddConnection()
     {
         if (_map is null || _selectedZoneFrom is null || _selectedZoneTo is null)
             return;
         
-        _map.AddConnection(_selectedZoneFrom, _selectedZoneTo, _connectionType, h, m);
+        _map.AddConnection(_selectedZoneFrom, _selectedZoneTo, _connectionType, _h, _m);
     }
 
-    private int h = 0;
-    private int m = 0;
+    private int _h = 0;
+    private int _m = 0;
     
     private ConnectionType _connectionType;
 
