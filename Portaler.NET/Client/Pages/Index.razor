@@ -12,7 +12,8 @@
 
 <PageTitle>Portaler.NET</PageTitle>
 <div class="sidenav">
-    <div class="area" >
+    <div class="obj">
+        <text>From</text>
         <BlazoredTypeahead SearchMethod="SearchZones" @bind-Value="_selectedZoneFrom" Debounce="1">
             <SelectedTemplate>
                 @context.Name
@@ -21,7 +22,10 @@
                 @context.Name
             </ResultTemplate>
         </BlazoredTypeahead>
+    </div>
 
+    <div class="obj">
+                <text>To</text>
         <BlazoredTypeahead SearchMethod="SearchZones" @bind-Value="_selectedZoneTo" Debounce="1">
             <SelectedTemplate>
                 @context.Name
@@ -30,22 +34,26 @@
                 @context.Name
             </ResultTemplate>
         </BlazoredTypeahead>
-
-        <div>
-            h
-            <input type="number" name="h" step="1" style="width: 50px" @oninput="(eventArgs) => { h = eventArgs.Value.ToString() == string.Empty ? 0 : int.Parse(eventArgs.Value.ToString()); }"/>
-            m
-            <input type="number" name="m" step="1" style="width: 50px" @oninput="(eventArgs) => { m = eventArgs.Value.ToString() == string.Empty ? 0 : int.Parse(eventArgs.Value.ToString()); }"/>
-        </div>
-        
-        <div>
-            <button style="background-color: lightgreen" onclick="@SetGreen">2</button>
-            <button style="background-color: cornflowerblue" onclick="@SetBlue">7</button>
-            <button style="background-color: palegoldenrod" onclick="@SetGold">20</button>
-        </div>
-        
-        <button onclick="@AddConnection">Add</button>
     </div>
+    
+    <br/>
+    
+    <div class="obj">
+        <text>h</text>
+        <input type="number" name="h" step="1" style="width: 50px" @oninput="(eventArgs) => { h = eventArgs.Value.ToString() == string.Empty ? 0 : int.Parse(eventArgs.Value.ToString()); }"/>
+        <text style="margin-left: 10px">m</text>
+        <input type="number" name="m" step="1" style="width: 50px" @oninput="(eventArgs) => { m = eventArgs.Value.ToString() == string.Empty ? 0 : int.Parse(eventArgs.Value.ToString()); }"/>
+    </div>
+        
+    <div class="obj" style="overflow: hidden; white-space: nowrap">
+        <button style="background-color: lightgreen; width: 30%" onclick="@SetGreen">2</button>
+        <button style="background-color: cornflowerblue; width: 30%" onclick="@SetBlue">7</button>
+        <button style="background-color: palegoldenrod; width: 30%" onclick="@SetGold">20</button>
+    </div>
+        
+    <br/>
+    
+    <button type="button" class="obj" style="width: 90%" onclick="@AddConnection">Add</button>
 </div>
 
 <div class="main">
