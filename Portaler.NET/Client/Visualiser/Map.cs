@@ -201,18 +201,8 @@ namespace Portaler.NET.Client.Visualiser
             {
                 if (connection.IsDone())
                 {
-                    Connections.Remove(connection);
+                    RemoveConnection(connection);
 
-                    if (!GetConnectedPoints(connection.Start).Any())
-                    {
-                        Balls.Remove(connection.Start);
-                    }
-
-                    if (!GetConnectedPoints(connection.End).Any())
-                    {
-                        Balls.Remove(connection.End);
-                    }
-                    
                     change = true;
                 }
             }
@@ -220,6 +210,21 @@ namespace Portaler.NET.Client.Visualiser
             if (change)
             {
                 await Save(localStorage);
+            }
+        }
+
+        public void RemoveConnection(Connection connection)
+        {
+            Connections.Remove(connection);
+
+            if (!GetConnectedPoints(connection.Start).Any())
+            {
+                Balls.Remove(connection.Start);
+            }
+
+            if (!GetConnectedPoints(connection.End).Any())
+            {
+                Balls.Remove(connection.End);
             }
         }
 

@@ -8,6 +8,8 @@ namespace Portaler.NET.Client.Visualiser
         public Ball End { get; set; }
         public ConnectionType ConnectionType { get; set; }
         public DateTime EndTime { get; set; }
+        
+        public bool Stop { get; set; }
 
 
         public Connection(Ball start, Ball end, ConnectionType connectionType, DateTime endDate)
@@ -16,6 +18,8 @@ namespace Portaler.NET.Client.Visualiser
             End = end;
             ConnectionType = connectionType;
             EndTime = endDate;
+
+            Stop = false;
         }
 
         public string GetTimeLeft()
@@ -26,7 +30,7 @@ namespace Portaler.NET.Client.Visualiser
 
         public bool IsDone()
         {
-            return EndTime < DateTime.UtcNow;
+            return EndTime < DateTime.UtcNow || Stop;
         }
     }
 }

@@ -14,7 +14,7 @@ namespace Portaler.NET.Client.Visualiser
         private static double _currentWidth;
         private static double _currentHeight;
 
-        public static async Task DrawMap(Map map, Canvas2DContext context, double width, double height)
+        public static async Task DrawMap(Map map, Ball? selectedBall, Canvas2DContext context, double width, double height)
         {
             _currentContext = context;
             _currentWidth = width;
@@ -34,6 +34,11 @@ namespace Portaler.NET.Client.Visualiser
             foreach(Ball ball in map.Balls)
             {
                 await DrawBall(ball);
+
+                if (ball == selectedBall)
+                {
+                    await DrawCircle(ball);
+                }
             }
         }
 
@@ -74,6 +79,23 @@ namespace Portaler.NET.Client.Visualiser
 
             await DrawText(new Vector2d(ball.Position.X, ball.Position.Y + ball.Radius + 30), ball.Zone.Name);
             await DrawText(ball.Position, ball.Zone.Tier);
+        }
+        
+        private static async Task DrawCircle(Ball ball)
+        {
+            if(_currentContext is null)
+            {
+                return;
+            }
+
+            double x = ball.Position.X + _currentWidth / 2;
+            double y = ball.Position.Y + _currentHeight / 2;
+
+            await _currentContext.BeginPathAsync();
+            await _currentContext.ArcAsync(x, y, ball.Radius, 0, Math.PI * 2);
+
+            await _currentContext.SetStrokeStyleAsync("black");
+            await _currentContext.StrokeAsync();
         }
 
         private static async Task DrawText(Vector2d position, string text)

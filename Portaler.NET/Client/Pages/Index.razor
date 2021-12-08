@@ -56,7 +56,7 @@
     <br/>
     
     <button type="button" class="obj" style="width: 90%" onclick="@AddConnection">Add</button>
-    <button type="button" class="obj" style="width: 90%" onclick="@Clear">Clear</button>
+    <button type="button" class="obj" style="width: 90%" onclick="@Delete">Delete</button>
 </div>
 
 <div class="main">
@@ -102,14 +102,14 @@
         }
 
         await _map.CheckConnections(_localStorage);
-        if (_selectedBall is not null)
+        if (_left && _selectedBall is not null)
         {
             _selectedBall.Position = new Vector2d(_mousePos.X, _mousePos.Y);
         }
         
         await _context.SetFillStyleAsync("rgb(112, 128, 144)");
         await _context.FillRectAsync(0, 0, _canvas.Width, _canvas.Height);
-        await Drawer.DrawMap(_map, _context, _canvas.Width, _canvas.Height);
+        await Drawer.DrawMap(_map, _selectedBall, _context, _canvas.Width, _canvas.Height);
     }
 
     [JSInvokable]
@@ -155,7 +155,6 @@
         }
         else if (type == "mouseup")
         {
-            _selectedBall = null;
             _left = false;
         }
     }
@@ -194,16 +193,23 @@
         _map.AddConnection(_selectedZoneFrom, _selectedZoneTo, _connectionType, _h, _m);
     }
 
-    private async Task Clear()
+    private async Task Delete()
     {
-        if (_map is null)
+        if (_map is null || _selectedBall is null)
         {
             return;
         }
-        
-        _map.Clear();
 
-        await _map.Save(_localStorage);
+        for (int i = 0; i < _map.Connections.Count; i++)
+        {
+            Connection c = _map.Connections[i];
+            if (c.Start == _selectedBall || c.End == _selectedBall)
+            {
+                _map.RemoveConnection(c);
+                
+                await _map.Save(_localStorage);
+            }
+        }
     }
 
     private int _h = 0;
