@@ -1,15 +1,16 @@
 ﻿using System;
-using System.Diagnostics;
 using Blazor.Extensions.Canvas.Canvas2D;
 using Portaler.NET.Shared;
-using System.Net.Http.Json;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Components;
 using Portaler.NET.Shared.GameInfo;
 
 namespace Portaler.NET.Client.Visualiser
 {
     public static class Drawer
     {
+        public static ElementReference? HomeImage { get; set; }
+        
         private static Canvas2DContext? _currentContext;
         private static double _currentWidth;
         private static double _currentHeight;
@@ -63,7 +64,7 @@ namespace Portaler.NET.Client.Visualiser
 
         private static async Task DrawBall(Ball ball)
         {
-            if(_currentContext is null)
+            if (_currentContext is null || ball.Zone is null)
             {
                 return;
             }
@@ -72,15 +73,22 @@ namespace Portaler.NET.Client.Visualiser
             double y = ball.Position.Y + _currentHeight / 2;
 
             await _currentContext.BeginPathAsync();
-            await _currentContext.ArcAsync(x, y, ball.Radius, 0, Math.PI * 2);
+            if (ball.Zone.Name == "Setent-Qintis" && HomeImage is not null)
+            {
+                await DrawImage(ball.Position, HomeImage.Value);
+            }
+            else
+            {
+                await _currentContext.ArcAsync(x, y, ball.Radius, 0, Math.PI * 2);
+                await _currentContext.SetFillStyleAsync(GetColorFromZone(ball.Zone));
+                await _currentContext.FillAsync();
+                
+                await DrawText(ball.Position, ball.Zone.Tier);
+            }
 
-            await _currentContext.SetFillStyleAsync(GetColorFromZone(ball.Zone));
-            await _currentContext.FillAsync();
-
-            await DrawText(new Vector2d(ball.Position.X, ball.Position.Y + ball.Radius + 30), ball.Zone.Name);
-            await DrawText(ball.Position, ball.Zone.Tier);
+            await DrawText(new Vector2d(ball.Position.X, ball.Position.Y + ball.Radius + 15), ball.Zone.Name);
         }
-        
+
         private static async Task DrawCircle(Ball ball)
         {
             if(_currentContext is null)
@@ -115,6 +123,20 @@ namespace Portaler.NET.Client.Visualiser
 
             await _currentContext.SetFillStyleAsync("white");
             await _currentContext.FillTextAsync(text, x, y + 6);
+        }
+        
+        private static async Task DrawImage(Vector2d position, ElementReference image)
+        {
+            if (_currentContext is null)
+            {
+                return;
+            }
+
+            double x = position.X + _currentWidth / 2;
+            double y = position.Y + _currentHeight / 2;
+
+            await _currentContext.BeginPathAsync();
+            await _currentContext.DrawImageAsync(image, x -20, y - 20, 40, 40);
         }
 
         private static string GetColorFromZone(ZoneInfo zone)

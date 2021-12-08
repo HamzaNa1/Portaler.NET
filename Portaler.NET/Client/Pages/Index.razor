@@ -13,6 +13,10 @@
 
 
 <PageTitle>Portaler.NET</PageTitle>
+
+<img @ref="_homeImg" hidden src="assets/home.png"  alt=""/>
+
+
 <div class="sidenav">
     <div class="obj">
         <text>From</text>
@@ -42,9 +46,9 @@
     
     <div class="obj">
         <text>h</text>
-        <input type="number" name="h" step="1" style="width: 50px" @oninput="(eventArgs) => { _h = eventArgs.Value.ToString() == string.Empty ? 0 : int.Parse(eventArgs.Value.ToString()); }"/>
+        <input type="number" name="h" step="1" style="width: 50px" @oninput="(eventArgs) => { _h = eventArgs.Value?.ToString() == string.Empty ? 0 : int.Parse(eventArgs.Value?.ToString()); }"/>
         <text style="margin-left: 10px">m</text>
-        <input type="number" name="m" step="1" style="width: 50px" @oninput="(eventArgs) => { _m = eventArgs.Value.ToString() == string.Empty ? 0 : int.Parse(eventArgs.Value.ToString()); }"/>
+        <input type="number" name="m" step="1" style="width: 50px" @oninput="(eventArgs) => { _m = eventArgs.Value?.ToString() == string.Empty ? 0 : int.Parse(eventArgs.Value?.ToString()); }"/>
     </div>
         
     <div class="obj" style="overflow: hidden; white-space: nowrap">
@@ -70,12 +74,16 @@
     BECanvasComponent? _canvas;
     Canvas2DContext? _context;
 
+    ElementReference _homeImg;
+
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (!firstRender)
             return;
 
         _context = await _canvas.CreateCanvas2DAsync();
+
+        Drawer.HomeImage = _homeImg;
         
         await InitGame();
     }
