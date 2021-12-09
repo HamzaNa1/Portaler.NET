@@ -22,22 +22,22 @@
         <text>From</text>
         <BlazoredTypeahead SearchMethod="SearchZones" @bind-Value="_selectedZoneFrom" Debounce="1">
             <SelectedTemplate>
-                @context.Name
+                @context
             </SelectedTemplate>
             <ResultTemplate>
-                @context.Name
+                @context
             </ResultTemplate>
         </BlazoredTypeahead>
     </div>
 
     <div class="obj">
-                <text>To</text>
+        <text>To</text>
         <BlazoredTypeahead SearchMethod="SearchZones" @bind-Value="_selectedZoneTo" Debounce="1">
             <SelectedTemplate>
-                @context.Name
+                @context
             </SelectedTemplate>
             <ResultTemplate>
-                @context.Name
+                @context
             </ResultTemplate>
         </BlazoredTypeahead>
     </div>
@@ -46,21 +46,21 @@
     
     <div class="obj">
         <text>h</text>
-        <input type="number" name="h" step="1" style="width: 50px" @oninput="(eventArgs) => { _h = eventArgs.Value?.ToString() == string.Empty ? 0 : int.Parse(eventArgs.Value?.ToString()); }"/>
+        <input type="number" name="h" step="1" style="width: 50px" @bind-value="_h"/>
         <text style="margin-left: 10px">m</text>
-        <input type="number" name="m" step="1" style="width: 50px" @oninput="(eventArgs) => { _m = eventArgs.Value?.ToString() == string.Empty ? 0 : int.Parse(eventArgs.Value?.ToString()); }"/>
+        <input type="number" name="m" step="1" style="width: 50px" @bind-value="_m"/>
     </div>
         
     <div class="obj" style="overflow: hidden; white-space: nowrap">
-        <button style="background-color: lightgreen; width: 30%" onclick="@SetGreen">2</button>
-        <button style="background-color: cornflowerblue; width: 30%" onclick="@SetBlue">7</button>
-        <button style="background-color: palegoldenrod; width: 30%" onclick="@SetGold">20</button>
+        <button class="clrBtn" style="background-color: lightgreen; width: 30%" onclick="@SetGreen">2</button>
+        <button class="clrBtn" style="background-color: cornflowerblue; width: 30%" onclick="@SetBlue">7</button>
+        <button class="clrBtn" style="background-color: palegoldenrod; width: 30%" onclick="@SetGold">20</button>
     </div>
-        
+
     <br/>
     
-    <button type="button" class="obj" style="width: 90%" onclick="@AddConnection">Add</button>
-    <button type="button" class="obj" style="width: 90%" onclick="@Delete">Delete</button>
+    <button class="obj button" style="width: 90%" onclick="@AddConnection">Add</button>
+    <button class="obj button" style="width: 90%" onclick="@Delete">Delete</button>
 </div>
 
 <div class="main">
@@ -142,7 +142,6 @@
             return;
         }
         
-
         x -= 220;
 
         if (x < 0 || y < 0)
@@ -159,6 +158,17 @@
             {
                 _left = true;
                 _selectedBall = _map?.GetBall(x, y);
+
+                if (_selectedBall?.Zone != null)
+                {
+                    _selectedZoneFrom = _selectedBall.Zone.Name;
+                    _selectedZoneTo = null;
+
+                    _h = 0;
+                    _m = 0;
+                    
+                    StateHasChanged();
+                }
             }
         }
         else if (type == "mouseup")
@@ -196,9 +206,24 @@
     private async Task AddConnection()
     {
         if (_map is null || _selectedZoneFrom is null || _selectedZoneTo is null)
+        {
             return;
+        }
         
-        _map.AddConnection(_selectedZoneFrom, _selectedZoneTo, _connectionType, _h, _m);
+        ZoneInfo? fromZone = ZoneGenerator.GetZone(_selectedZoneFrom);
+        ZoneInfo? toZone = ZoneGenerator.GetZone(_selectedZoneTo);
+
+        if (fromZone is null || toZone is null)
+        {
+            return;
+        }
+        
+        _map.AddConnection(fromZone, toZone, _connectionType, _h, _m);
+
+        _selectedZoneTo = null;
+
+        _h = 0;
+        _m = 0;
     }
 
     private async Task Delete()
@@ -240,39 +265,39 @@
         _connectionType = ConnectionType.Gold;
     }
 
-    private ZoneInfo? _selectedZoneTo;
-    private ZoneInfo? _selectedZoneFrom;
+    private string? _selectedZoneTo;
+    private string? _selectedZoneFrom;
 
-    private static async Task<IEnumerable<ZoneInfo>> SearchZones(string searchText)
+    private async Task<IEnumerable<string>> SearchZones(string searchText)
     {
         if (ZoneGenerator.Zones is null)
         {
-            return Array.Empty<ZoneInfo>();
+            return Array.Empty<string>();
         }
 
-        return await Task.FromResult(ZoneGenerator.Zones.Where(x => x.Name.ToLower().Contains(searchText.ToLower())).ToList());
+        return await Task.FromResult(ZoneGenerator.Zones.Select(x => x.Name).Where(x => x.ToLower().Contains(searchText.ToLower()) && x != _selectedZoneTo && x != _selectedZoneFrom).ToList());
     }
 
-    private string _ticketString = string.Empty;
-
-    private async Task CheckAuthTicket()
-    {
-        AuthTicket? ticket = await _http.GetFromJsonAsync<AuthTicket>("AuthTicket");
-        if (ticket is null)
-        {
-            Console.WriteLine("Couldn't auth ticket, try again later.");
-            return;
-        }
-
-        if (ticket.Ticket == _ticketString)
-        {
-            await InitGame();
-        }
-        else
-        {
-            Console.WriteLine("Wrong Ticket");
-        }
-    }
+    // private string _ticketString = string.Empty;
+    //
+    // private async Task CheckAuthTicket()
+    // {
+    //     AuthTicket? ticket = await _http.GetFromJsonAsync<AuthTicket>("AuthTicket");
+    //     if (ticket is null)
+    //     {
+    //         Console.WriteLine("Couldn't auth ticket, try again later.");
+    //         return;
+    //     }
+    //
+    //     if (ticket.Ticket == _ticketString)
+    //     {
+    //         await InitGame();
+    //     }
+    //     else
+    //     {
+    //         Console.WriteLine("Wrong Ticket");
+    //     }
+    // }
 
     public class CanvasMeta
     {

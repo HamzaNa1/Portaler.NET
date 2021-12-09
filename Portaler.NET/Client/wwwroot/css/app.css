@@ -18,6 +18,24 @@
     margin: 10px 10px 10px 10px;
 }
 
+.button {
+    border-radius:              10px;
+    color:                      #e7d3ff;
+    background-color:           #5d2d8b;
+}
+
+.button:link,
+.button:visited {
+    transition:                 color 0.7s ease-in-out;
+    -o-transition:              color 0.7s ease-in-out;
+    -moz-transition:            color 0.7s ease-in-out;
+    -webkit-transition:         color 0.7s ease-in-out;
+}
+.button:active,
+.button:hover {
+    background-color:           #8d55c4;
+}
+
 /* Style page content */
 .main {
     margin-left: 220px; /* Same as the width of the sidebar */
@@ -47,6 +65,10 @@ a, .btn-link {
     color: #fff;
     background-color: #1b6ec2;
     border-color: #1861ac;
+}
+
+.clrBtn:focus {
+    filter: brightness(80%);
 }
 
 .content {

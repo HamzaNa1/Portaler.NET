@@ -90,15 +90,6 @@
     "isDeep": false
   },
   {
-    "id": 11,
-    "albionId": "PSG-0051---3",
-    "name": "Bedrock Passage",
-    "tier": "VI",
-    "color": " ",
-    "type": "PASSAGE_BLACK",
-    "isDeep": false
-  },
-  {
     "id": 830,
     "albionId": "PSG-0051#3",
     "name": "Bedrock Passage",
