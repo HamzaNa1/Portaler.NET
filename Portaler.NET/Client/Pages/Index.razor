@@ -3,6 +3,7 @@
 @using Blazor.Extensions
 @using Blazor.Extensions.Canvas.Canvas2D
 @using Blazored.Typeahead
+@using Portaler.NET.Client.Github
 @using Portaler.NET.Client.Visualiser
 @using Portaler.NET.Shared
 @using Portaler.NET.Shared.GameInfo
@@ -61,6 +62,10 @@
     
     <button class="obj button" style="width: 90%" onclick="@AddConnection">Add</button>
     <button class="obj button" style="width: 90%" onclick="@Delete">Delete</button>
+    
+    <div class="obj">
+        <textarea readonly class="commitText" style="resize: none" @bind=@_lastCommitMessage></textarea>
+    </div>
 </div>
 
 <div class="main">
@@ -193,7 +198,8 @@
     }
 
     private Map? _map;
-
+    private string _lastCommitMessage = "";
+    
     protected override async Task OnInitializedAsync()
     {
         new Config(0, 0.08f, 0.025f, 50f, 0.0000001f, 300, true).SetAsDefault();
@@ -201,6 +207,15 @@
 
         await ZoneGenerator.Initialize();
         await _map.Load(_localStorage);
+        
+        await GithubHandler.GetLastCommitMessage(ChangeCommitMessage);
+    }
+
+    private async void ChangeCommitMessage(string newMessage)
+    {
+        _lastCommitMessage = newMessage;
+        await _jsRuntime.InvokeAsync<bool>("ResetHeight", "commitText");
+        await _jsRuntime.InvokeAsync<bool>("UpdateHeight", "commitText");
     }
 
     private async Task AddConnection()

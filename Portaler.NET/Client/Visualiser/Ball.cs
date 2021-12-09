@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Portaler.NET.Shared;
 using Portaler.NET.Shared.GameInfo;
 
@@ -60,7 +61,7 @@ namespace Portaler.NET.Client.Visualiser
 
             _forces = Vector2d.Zero;
         }
-
+        
         public void ApplyForces(IEnumerable<Vector2d> forces)
         {
             if (!forces.TryGetNonEnumeratedCount(out int count))
