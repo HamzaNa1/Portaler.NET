@@ -7676,5 +7676,356 @@
     "color": "yellow",
     "type": "OPENPVP_YELLOW",
     "isDeep": false
+  },
+  {
+    "id": 817,
+    "albionId": "",
+    "name": "Murky Fen",
+    "tier": "IV",
+    "color": "blue",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 818,
+    "albionId": "",
+    "name": "Pen Fenair",
+    "tier": "IV",
+    "color": "blue",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 819,
+    "albionId": "",
+    "name": "Flynsdell",
+    "tier": "IV",
+    "color": "blue",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 820,
+    "albionId": "",
+    "name": "Dryfield Meadow",
+    "tier": "IV",
+    "color": "blue",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 821,
+    "albionId": "",
+    "name": "Pinecopse",
+    "tier": "IV",
+    "color": "blue",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 822,
+    "albionId": "",
+    "name": "Sandgust Cleft",
+    "tier": "IV",
+    "color": "blue",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 823,
+    "albionId": "",
+    "name": "Kilmar Tor",
+    "tier": "IV",
+    "color": "blue",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 824,
+    "albionId": "",
+    "name": "Fog Fen",
+    "tier": "IV",
+    "color": "blue",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 825,
+    "albionId": "",
+    "name": "Drownhorse Basin",
+    "tier": "V",
+    "color": "yellow",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 826,
+    "albionId": "",
+    "name": "Cairn Cloch",
+    "tier": "V",
+    "color": "yellow",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 827,
+    "albionId": "",
+    "name": "Drownhorse Basin",
+    "tier": "V",
+    "color": "yellow",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 828,
+    "albionId": "",
+    "name": "Caulder Fissure",
+    "tier": "V",
+    "color": "yellow",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 829,
+    "albionId": "",
+    "name": "Cairn Drain",
+    "tier": "V",
+    "color": "yellow",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 830,
+    "albionId": "",
+    "name": "Aspenwood",
+    "tier": "V",
+    "color": "yellow",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 831,
+    "albionId": "",
+    "name": "Deeproot Wood",
+    "tier": "V",
+    "color": "yellow",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 832,
+    "albionId": "",
+    "name": "Goldshimmer Plain",
+    "tier": "V",
+    "color": "yellow",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 833,
+    "albionId": "",
+    "name": "Spindlewood",
+    "tier": "V",
+    "color": "yellow",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 834,
+    "albionId": "",
+    "name": "Longshadow Plain",
+    "tier": "V",
+    "color": "yellow",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 835,
+    "albionId": "",
+    "name": "Flatriver Trough",
+    "tier": "V",
+    "color": "yellow",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 836,
+    "albionId": "",
+    "name": "Redstone Plain",
+    "tier": "V",
+    "color": "yellow",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 837,
+    "albionId": "",
+    "name": "Felniks Hill",
+    "tier": "V",
+    "color": "yellow",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 838,
+    "albionId": "",
+    "name": "Brons Hill",
+    "tier": "V",
+    "color": "yellow",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 839,
+    "albionId": "",
+    "name": "Adrens Hill",
+    "tier": "V",
+    "color": "yellow",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 840,
+    "albionId": "",
+    "name": "Wanderlure Basin",
+    "tier": "V",
+    "color": "yellow",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 841,
+    "albionId": "",
+    "name": "Falsestep Marsh",
+    "tier": "V",
+    "color": "yellow",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 842,
+    "albionId": "",
+    "name": "Slithertail Marsh",
+    "tier": "V",
+    "color": "yellow",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 843,
+    "albionId": "",
+    "name": "Anklesnag Mire",
+    "tier": "VI",
+    "color": "red",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 844,
+    "albionId": "",
+    "name": "Creag Dhor",
+    "tier": "VI",
+    "color": "red",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 845,
+    "albionId": "",
+    "name": "Creag Meagir",
+    "tier": "VI",
+    "color": "red",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 846,
+    "albionId": "",
+    "name": "Domhain Chasm",
+    "tier": "VII",
+    "color": "red",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 847,
+    "albionId": "",
+    "name": "Owlsong Glen",
+    "tier": "VI",
+    "color": "red",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 848,
+    "albionId": "",
+    "name": "Nightbloom Forest",
+    "tier": "VI",
+    "color": "red",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 849,
+    "albionId": "",
+    "name": "",
+    "tier": "VI",
+    "color": "red",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 850,
+    "albionId": "",
+    "name": "Flimmerair Steppe",
+    "tier": "VI",
+    "color": "red",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 851,
+    "albionId": "",
+    "name": "Broken Fell",
+    "tier": "VI",
+    "color": "red",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 852,
+    "albionId": "",
+    "name": "Garrow Fell",
+    "tier": "VI",
+    "color": "red",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 853,
+    "albionId": "",
+    "name": "",
+    "tier": "VI",
+    "color": "red",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 854,
+    "albionId": "",
+    "name": "Dusktree Swamp",
+    "tier": "VI",
+    "color": "red",
+    "type": "",
+    "isDeep": false
+  },
+  {
+    "id": 855,
+    "albionId": "",
+    "name": "Darkground Swamp",
+    "tier": "VI",
+    "color": "red",
+    "type": "",
+    "isDeep": false
   }
 ]
