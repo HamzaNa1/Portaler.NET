@@ -1,0 +1,171 @@
+﻿<div style="position: relative; height: 40px">
+    <input class="AFBInner AFBText" id="AFBTextarea"
+           value="@Value"
+           @oninput="@(async (changeEventArgs) => await OnInput(changeEventArgs))"
+           @onkeyup="@(async (keyboardEventArgs) => await ProcessInput(keyboardEventArgs))"
+           @onfocusout="Hide"/>
+       
+    <div style="position: absolute; width: 100%; z-index: 99 !important;">
+        @if (_isShown)
+        {
+            <div style="margin-bottom: 40px"></div>
+
+            if (_choices.Length > 0)
+            {
+                for (int i = 0; i < _choices.Length; i++)
+                {
+                    string s = _choices[i];
+                    if (i == _currentChoice)
+                    {
+                        <button class="AFBInner AFBItem AFBButton" style="background-color: #007ffd; color: white" @onmousedown="@(async () => await ChangeValue(s))">@s</button>
+                    }
+                    else
+                    {
+                        <button class="AFBInner AFBItem AFBButton" @onmousedown="@(async () => await ChangeValue(s))">@s</button>
+                    }
+                }
+            }
+            else
+            {
+                <textarea class="AFBInner AFBItem" readonly style="resize: none">No items found</textarea>
+            }
+        }
+    </div>
+</div>
+
+<style>
+    .AFBInner {
+        position: relative;
+        width: 100%;
+        height: 40px;
+        float: left;
+    }
+
+    .AFBText {
+        border-radius: 5px;
+        resize: none;
+        white-space: nowrap;
+        overflow-x: hidden;
+    }
+
+    .AFBItem {
+        display: block;
+        border-radius: 0;
+        margin: 0;
+        border: none;
+        align-content: center;
+    }
+    
+    .AFBButton:hover {
+        filter: brightness(80%);
+    }
+</style>
+
+@code {
+    private string[] _choices = Array.Empty<string>();
+    private int _currentChoice = 0;
+    private bool _isShown;
+
+    [Parameter]
+    public Func<string, Task<IEnumerable<string>>>? SearchMethod { get; set; }
+
+    [Parameter]
+    public string Value { get; set; } = string.Empty;
+
+    [Parameter]
+    public EventCallback<string> ValueChanged { get; set; }
+
+    private async Task ProcessInput(KeyboardEventArgs args)
+    {
+        if (_isShown)
+        {
+            switch (args.Key)
+            {
+                case "Enter":
+                {
+                    if (_choices.Length > 0)
+                    {
+                        await ChangeValue(_choices[_currentChoice]);
+                        await Hide();
+                    }
+                    break;
+                }
+                case "Escape":
+                {
+                    await Hide();
+                    break;
+                }
+                case "ArrowDown":
+                {
+                    await ChangeCurrentChoice(1);
+                    break;
+                }
+                case "ArrowUp":
+                {
+                    await ChangeCurrentChoice(-1);
+                    break;
+                }
+            }
+        }
+    }
+
+    private async Task ChangeCurrentChoice(int offset)
+    {
+        _currentChoice += offset;
+
+        if (_currentChoice < 0)
+        {
+            _currentChoice = _choices.Length - 1;
+        }
+        else if (_currentChoice >= _choices.Length)
+        {
+            _currentChoice = 0;
+        }
+    }
+    
+    private async Task OnInput(ChangeEventArgs args)
+    {
+        if (args.Value is null)
+        {
+            return;
+        }
+
+        await ChangeValue((string)args.Value);
+
+        if (SearchMethod is null)
+        {
+            return;
+        }
+
+        _choices = (await SearchMethod.Invoke(Value)).Take(10).ToArray();
+        _currentChoice = 0;
+        await Show();
+    }
+
+    private async Task ChangeValue(string newValue)
+    {
+        Value = newValue;
+        await ValueChanged.InvokeAsync(Value);
+    }
+
+    private async Task Show()
+    {
+        if (_isShown)
+        {
+            return;
+        }
+
+        _isShown = true;
+    }
+
+    private async Task Hide()
+    {
+        if (!_isShown)
+        {
+            return;
+        }
+
+        _isShown = false;
+    }
+
+}

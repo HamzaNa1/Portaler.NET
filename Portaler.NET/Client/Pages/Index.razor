@@ -2,11 +2,11 @@
 
 @using Blazor.Extensions
 @using Blazor.Extensions.Canvas.Canvas2D
-@using Blazored.Typeahead
 @using Portaler.NET.Client.Github
 @using Portaler.NET.Client.Visualiser
 @using Portaler.NET.Shared
 @using Portaler.NET.Shared.GameInfo
+@using Portaler.NET.Client.AFB.Component
 
 @inject IJSRuntime _jsRuntime;
 @inject HttpClient _http;
@@ -17,30 +17,15 @@
 
 <img @ref="_homeImg" hidden src="assets/home.png"  alt=""/>
 
-
 <div class="sidenav">
     <div class="obj">
         <text>From</text>
-        <BlazoredTypeahead SearchMethod="SearchZones" @bind-Value="_selectedZoneFrom" Debounce="1">
-            <SelectedTemplate>
-                @context
-            </SelectedTemplate>
-            <ResultTemplate>
-                @context
-            </ResultTemplate>
-        </BlazoredTypeahead>
+        <AutoFillBox SearchMethod="@SearchZones" @bind-Value="_selectedZoneFrom"></AutoFillBox>
     </div>
 
     <div class="obj">
         <text>To</text>
-        <BlazoredTypeahead SearchMethod="SearchZones" @bind-Value="_selectedZoneTo" Debounce="1">
-            <SelectedTemplate>
-                @context
-            </SelectedTemplate>
-            <ResultTemplate>
-                @context
-            </ResultTemplate>
-        </BlazoredTypeahead>
+        <AutoFillBox SearchMethod="@SearchZones" @bind-Value="_selectedZoneTo"></AutoFillBox>
     </div>
     
     <br/>
@@ -57,9 +42,9 @@
         <button class="clrBtn" style="background-color: cornflowerblue; width: 64px" onclick="@SetBlue">7</button>
         <button class="clrBtn" style="background-color: palegoldenrod; width: 64px" onclick="@SetGold">20</button>
     </div>
-
-    <br/>
     
+    <br/>
+
     <button class="obj button" style="width: 90%" onclick="@AddConnection">Add</button>
     <button class="obj button" style="width: 90%" onclick="@Delete">Delete</button>
     
@@ -76,6 +61,8 @@
 
 @code
 {
+    private string _dummy = string.Empty;
+    
     BECanvasComponent? _canvas;
     Canvas2DContext? _context;
 
@@ -290,7 +277,7 @@
             return Array.Empty<string>();
         }
 
-        return await Task.FromResult(ZoneGenerator.Zones.Select(x => x.Name).Where(x => x.ToLower().Contains(searchText.ToLower()) && x != _selectedZoneTo && x != _selectedZoneFrom).ToList());
+        return await Task.FromResult(ZoneGenerator.Zones.Select(x => x.Name).Where(x => x.ToLower().Contains(searchText.ToLower()) && x != _selectedZoneTo && x != _selectedZoneFrom));
     }
 
     // private string _ticketString = string.Empty;

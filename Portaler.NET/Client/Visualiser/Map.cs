@@ -46,15 +46,13 @@ namespace Portaler.NET.Client.Visualiser
 
         private bool AddConnection(ConnectionInfo info)
         {
-            if (info.Start is null)
+            if (info.Start == info.End)
             {
-                throw new ArgumentNullException(nameof(info.Start));
+                return false;
             }
-            else if (info.End is null)
-            {
-                throw new ArgumentNullException(nameof(info.End));
-            }
-            else if (info.Start == info.End)
+
+            if (Connections.Any(x => x.Start.Zone == info.Start && x.End.Zone == info.End) ||
+                Connections.Any(x => x.Start.Zone == info.End && x.End.Zone == info.Start))
             {
                 return false;
             }

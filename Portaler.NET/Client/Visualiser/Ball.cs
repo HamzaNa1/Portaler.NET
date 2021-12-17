@@ -26,7 +26,7 @@ namespace Portaler.NET.Client.Visualiser
 
         public Ball(Vector2d position, double radius)
         {
-            ID = IDCounter++;
+            ID = IDCounter--;
 
             Position = position;
             Radius = radius;
